@@ -1,83 +1,58 @@
 "use client";
 
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Sparkles, Volume2, Info } from "lucide-react";
 import { BeatScheduler, BeatStyle } from "@/lib/audio/BeatScheduler";
 import { GameEngine } from "@/lib/game/GameEngine";
 import { DifficultyLevel, GameMode, RhymeWord } from "@/types/game";
 import { BeatVisualizer } from "@/components/game/BeatVisualizer";
 import { RhymeTile } from "@/components/game/RhymeTile";
-import { AudioControls } from "@/components/game/AudioControls";
+import { SettingsContent } from "@/components/game/SettingsContent";
+import { SettingsSheet } from "@/components/game/SettingsSheet";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { siteConfig } from "@/config/site";
+import { useTranslation } from "@/lib/i18n";
 
 export default function PlayModePage() {
-  const params = useParams();
-  const router = useRouter();
-  const rawMode = (params.mode as string) || "classic";
-  const mode = (
-    ["classic", "topic", "code-switch", "daily", "battle", "lab"].includes(rawMode)
-      ? rawMode
-      : "classic"
-  ) as GameMode;
-
-  const { beatStyle, setBeatStyle } = useSettingsStore();
-
-  const [bpm, setBpm] = useState<number>(siteConfig.defaultBpm);
-  const [level, setLevel] = useState<DifficultyLevel>("all_shown");
-  const [totalBars, setTotalBars] = useState<number>(siteConfig.defaultSessionBars);
+  const { t } = useTranslation();
+  const { script, beatStyle, bpm, level, setBpm, setBeatStyle, setLevel } =
+    useSettingsStore();
 
   const [wordsPool, setWordsPool] = useState<RhymeWord[]>([]);
-  const [isLoadingWords, setIsLoadingWords] = useState<boolean>(true);
-
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
+  const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
+
   const [currentBar, setCurrentBar] = useState<number>(1);
   const [currentBeat, setCurrentBeat] = useState<number>(1);
   const [activeWord, setActiveWord] = useState<RhymeWord | null>(null);
   const [nextWord, setNextWord] = useState<RhymeWord | null>(null);
-  const [soundKey, setSoundKey] = useState<string>("");
 
+  const totalBars = siteConfig.defaultSessionBars;
   const schedulerRef = useRef<BeatScheduler | null>(null);
   const engineRef = useRef<GameEngine | null>(null);
 
-  // 1. Fetch precomputed static words based on game mode
+  // 1. Fetch precomputed static words
   useEffect(() => {
     async function loadData() {
-      setIsLoadingWords(true);
       try {
-        if (mode === "topic") {
-          const res = await fetch("/data/themes.json");
-          const themes = await res.json();
-          // Combine themes
-          const combined: RhymeWord[] = [];
-          for (const list of Object.values(themes)) {
-            combined.push(...(list as RhymeWord[]));
-          }
-          setWordsPool(combined);
-        } else {
-          const res = await fetch("/data/rhyme_index.json");
-          const groups = await res.json();
-          const flattened: RhymeWord[] = [];
-          for (const list of Object.values(groups)) {
-            flattened.push(...(list as RhymeWord[]));
-          }
-          setWordsPool(flattened);
+        const res = await fetch("/data/rhyme_index.json");
+        const groups = await res.json();
+        const flattened: RhymeWord[] = [];
+        for (const list of Object.values(groups)) {
+          flattened.push(...(list as RhymeWord[]));
         }
+        setWordsPool(flattened);
       } catch (err) {
         console.error("Failed to load rhyme words:", err);
-      } finally {
-        setIsLoadingWords(false);
       }
     }
     loadData();
-  }, [mode]);
+  }, []);
 
-  // 2. Initialize Game Engine and Audio Scheduler
+  // 2. Initialize Game Engine
   useEffect(() => {
     const engine = new GameEngine({
-      mode,
+      mode: "classic",
       level,
       bpm,
       totalBars,
@@ -91,7 +66,6 @@ export default function PlayModePage() {
       setCurrentBeat(st.currentBeat);
       setActiveWord(st.activeWord);
       setNextWord(st.nextWord);
-      setSoundKey(st.currentSoundKey);
     });
 
     return () => {
@@ -100,7 +74,7 @@ export default function PlayModePage() {
         schedulerRef.current.stop();
       }
     };
-  }, [mode, level, bpm, totalBars, wordsPool]);
+  }, [level, bpm, totalBars, wordsPool]);
 
   // 3. Connect BeatScheduler hardware audio clock to GameEngine
   const handleStartSession = () => {
@@ -111,8 +85,7 @@ export default function PlayModePage() {
     scheduler.setBpm(bpm);
     scheduler.setStyle(beatStyle);
 
-    // Audio beat callback updates the game state
-    scheduler.subscribe((bar, beat, audioTime) => {
+    scheduler.subscribe((_bar, _beat, audioTime) => {
       if (engineRef.current) {
         engineRef.current.updateAtTime(audioTime);
       }
@@ -148,109 +121,163 @@ export default function PlayModePage() {
     engineRef.current?.setLevel(newLevel);
   };
 
-  const handleTotalBarsChange = (bars: number) => {
-    setTotalBars(bars);
-  };
-
-  // Determine current bar pattern (A or B) in AABB
-  const currentPattern = Math.floor((currentBar - 1) / 2) % 2 === 0 ? "A" : "B";
-  const nextPattern = Math.floor(currentBar / 2) % 2 === 0 ? "A" : "B";
-
   // Determine visibility based on difficulty level
   const isTargetRevealed = useMemo(() => {
     if (level === "all_shown" || level === "four_bars_same_sound") return true;
     if (level === "first_of_pair") {
-      // Reveal first bar, second only on bar 2
       return currentBar % 2 === 1 || currentBeat >= 1;
     }
     if (level === "last_bar_only") {
-      // Blind drop: reveal right before punchline on beat 3
       return currentBeat >= 3;
     }
     return true;
   }, [level, currentBar, currentBeat]);
 
   return (
-    <div className="min-h-screen bg-background flex flex-col items-center justify-between p-4 md:p-8 max-w-4xl mx-auto w-full">
-      {/* Top Navigation */}
-      <header className="w-full flex items-center justify-between mb-6">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-xs font-bold text-zinc-400 hover:text-foreground transition-colors px-3 py-1.5 rounded-lg bg-surface border border-borderMuted"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          <span>Back to Home</span>
-        </Link>
+    <div className="min-h-screen flex flex-col justify-between p-4 sm:p-8 max-w-[1200px] mx-auto w-full">
+      {/* ================= HEADER ROW ================= */}
+      <header className="w-full flex items-center justify-between min-h-[48px]">
+        {!isPlaying ? (
+          <>
+            {/* Back button */}
+            <Link
+              href="/"
+              className="inline-flex items-center justify-center min-h-[48px] px-4 rounded-xl border border-border bg-surface text-foreground font-bold text-sm hover:bg-border/30 transition-colors"
+            >
+              ← {t("game.back")}
+            </Link>
 
-        <div className="flex items-center gap-2">
-          <span className="text-xs uppercase font-black px-2.5 py-1 rounded bg-majorelle/15 text-majorelle border border-majorelle/20">
-            {mode.toUpperCase()} MODE
-          </span>
-        </div>
+            {/* Mode name */}
+            <div className="font-bold text-base sm:text-lg text-foreground">
+              {t("game.mode.classic")}
+            </div>
+
+            {/* Settings button */}
+            <button
+              type="button"
+              onClick={() => setIsSettingsOpen(true)}
+              className="inline-flex items-center justify-center min-h-[48px] px-4 rounded-xl border border-border bg-surface text-foreground font-bold text-sm hover:bg-border/30 transition-colors"
+              aria-label={t("game.settings")}
+            >
+              ⚙ {t("game.settings")}
+            </button>
+          </>
+        ) : (
+          /* Header while playing: bar counter centered */
+          <div className="w-full flex items-center justify-center">
+            <span className="text-base sm:text-lg font-bold text-foreground">
+              {t("game.bar", {
+                n: currentBar,
+                total: totalBars === Infinity ? "∞" : totalBars,
+              })}
+            </span>
+          </div>
+        )}
       </header>
 
-      {/* Main Cypher Play Area */}
-      <main className="w-full flex flex-col items-center gap-6 my-auto">
-        {/* Beat Visualizer Bar */}
-        <BeatVisualizer
-          currentBar={currentBar}
-          totalBars={totalBars}
-          currentBeat={currentBeat}
-          bpm={bpm}
-          soundKey={soundKey}
-        />
+      {/* ================= MAIN AREA ================= */}
+      <main className="w-full my-auto py-6 flex-1 flex flex-col items-center justify-center">
+        {!isPlaying ? (
+          /* ---------- BEFORE START ---------- */
+          <div className="w-full flex flex-col min-[900px]:flex-row items-center justify-center gap-10">
+            {/* Center Area */}
+            <div className="flex-1 max-w-lg flex flex-col items-center justify-center text-center gap-6">
+              {/* Large placeholder "؟" */}
+              <div
+                className="w-32 h-32 rounded-3xl bg-surface border-2 border-border flex items-center justify-center text-7xl font-bold font-arabic text-muted/60 select-none shadow-xs"
+                aria-hidden="true"
+              >
+                ؟
+              </div>
 
-        {/* Rhyme Tiles Lane */}
-        <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-4">
-          {/* Active Punchline Tile */}
-          <div className="w-full sm:w-1/2 flex flex-col items-center">
-            <span className="text-[11px] font-bold text-zinc-400 mb-1.5 uppercase tracking-wider flex items-center gap-1">
-              <span>🎯 Current Target (Beat 4)</span>
-            </span>
+              {/* Instruction sentence */}
+              <p className="text-base sm:text-lg text-muted max-w-md leading-relaxed">
+                {t("game.ready.hint")}
+              </p>
+
+              {/* Four idle beat dots */}
+              <BeatVisualizer isPlaying={false} />
+
+              {/* Primary Start button */}
+              <button
+                type="button"
+                onClick={handleStartSession}
+                className="w-full sm:w-[260px] min-h-[48px] px-8 py-3.5 rounded-xl bg-primary hover:bg-primary-hover text-white font-bold text-lg shadow-md hover:shadow-lg transition-all flex items-center justify-center text-center mt-2"
+              >
+                {t("game.start")}
+              </button>
+            </div>
+
+            {/* Desktop-only Settings Panel (360px on right) */}
+            <aside
+              aria-label={t("game.settings")}
+              className="hidden min-[900px]:block w-[360px] bg-surface border border-border rounded-2xl p-6 shadow-xs"
+            >
+              <h2 className="text-lg font-bold text-foreground mb-4 border-b border-border pb-2">
+                {t("game.settings")}
+              </h2>
+              <SettingsContent
+                onBpmChange={handleBpmChange}
+                onBeatStyleChange={handleBeatStyleChange}
+                onLevelChange={handleLevelChange}
+              />
+            </aside>
+          </div>
+        ) : (
+          /* ---------- PLAYING ---------- */
+          <div className="w-full max-w-lg flex flex-col items-center justify-center gap-6 text-center">
+            {/* Small hint line */}
+            <p className="text-sm sm:text-base text-muted font-medium">
+              {t("game.target")}
+            </p>
+
+            {/* Saffron tile with the rhyme word */}
             <RhymeTile
               word={activeWord}
-              status="active"
-              barIndex={currentBar}
-              pattern={currentPattern}
               revealed={isTargetRevealed}
+              isBeat4={currentBeat === 4}
             />
-          </div>
 
-          {/* Upcoming Next Bar Tile */}
-          <div className="w-full sm:w-1/2 flex flex-col items-center opacity-85">
-            <span className="text-[11px] font-bold text-zinc-500 mb-1.5 uppercase tracking-wider">
-              Upcoming Bar {currentBar + 1}
-            </span>
-            <RhymeTile
-              word={nextWord}
-              status="next"
-              barIndex={currentBar + 1}
-              pattern={nextPattern}
-              revealed={level === "all_shown"}
-            />
-          </div>
-        </div>
+            {/* Four beat dots (the 4th turns saffron on beat 4) */}
+            <BeatVisualizer isPlaying={true} currentBeat={currentBeat} />
 
-        {/* Audio & Game Controls */}
-        <AudioControls
-          isPlaying={isPlaying}
-          bpm={bpm}
-          onPlay={handleStartSession}
-          onStop={handleStopSession}
-          onBpmChange={handleBpmChange}
-          beatStyle={beatStyle}
-          onBeatStyleChange={handleBeatStyleChange}
-          level={level}
-          onLevelChange={handleLevelChange}
-          totalBars={totalBars}
-          onTotalBarsChange={handleTotalBarsChange}
-        />
+            {/* Muted "Next: ..." line */}
+            <p className="text-sm sm:text-base text-muted min-h-[24px]">
+              {nextWord ? (
+                <>
+                  <span className="font-semibold">{t("game.next")}</span>{" "}
+                  <span>
+                    {script === "arabizi" ? nextWord.latn : nextWord.ar}
+                  </span>
+                </>
+              ) : (
+                ""
+              )}
+            </p>
+
+            {/* Secondary outlined Stop button */}
+            <button
+              type="button"
+              onClick={handleStopSession}
+              className="min-h-[48px] px-8 py-2.5 rounded-xl border-2 border-primary text-primary hover:bg-primary/10 font-bold text-base transition-colors flex items-center justify-center text-center mt-2"
+            >
+              {t("game.stop")}
+            </button>
+          </div>
+        )}
       </main>
 
-      {/* Mobile-Friendly Hint */}
-      <footer className="w-full text-center text-xs text-zinc-500 pt-4">
-        <span>Tip: Speak or rap your line on beats 1-3, and deliver the rhyme tile on beat 4!</span>
-      </footer>
+      {/* Footer spacer for layout balance */}
+      <footer className="w-full min-h-[24px]" />
+
+      {/* Mobile Settings Bottom Sheet */}
+      <SettingsSheet
+        isOpen={isSettingsOpen}
+        onClose={() => setIsSettingsOpen(false)}
+        onBpmChange={handleBpmChange}
+        onBeatStyleChange={handleBeatStyleChange}
+        onLevelChange={handleLevelChange}
+      />
     </div>
   );
 }
