@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --surface: #ffffff;
+  --border-muted: #e2e8f0;
+
+  /* Authentic Moroccan Street & Medina Palette */
+  --majorelle: #1d4ed8;
+  --saffron: #f59e0b;
+  --terracotta: #ea580c;
+  --teal-medina: #0f766e;
+  --plaster: #f8fafc;
+}
+
+[data-theme="dark"],
+.dark {
+  --background: #090d16;
+  --foreground: #f1f5f9;
+  --surface: #111827;
+  --border-muted: #1f2937;
+
+  --majorelle: #3b82f6;
+  --saffron: #fbbf24;
+  --terracotta: #f97316;
+  --teal-medina: #14b8a6;
+  --plaster: #1e293b;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-cairo), Cairo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Bi-directional styling support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+/* Zellige decorative patterns & tile borders */
+.zellige-border {
+  border: 2px solid var(--majorelle);
+  box-shadow: 0 4px 14px 0 rgba(29, 78, 216, 0.15);
+}
+
+.zellige-pattern {
+  background-color: var(--surface);
+  background-image: radial-gradient(var(--border-muted) 1px, transparent 1px);
+  background-size: 16px 16px;
+}

@@ -41,7 +41,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# OS and Editor files
+# TypeScript cache
+*.tsbuildinfo
+next-env.d.ts
 .DS_Store
 Thumbs.db
 .vscode/*

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "procedural-boombap-01",
+    "title": "Classic Boom Bap",
+    "producer": "9afiya Procedural Synth",
+    "bpm": 88,
+    "key": "Dm",
+    "license": "CC0 1.0 Universal",
+    "sourceUrl": "https://github.com/marouaneouazry/9afiya",
+    "attributionText": "Generated procedurally by 9afiya Web Audio Engine",
+    "dateAdded": "2026-11-11",
+    "isProcedural": true
+  },
+  {
+    "id": "procedural-chaabi-trap",
+    "title": "Casablanca Chaabi",
+    "producer": "9afiya Procedural Synth",
+    "bpm": 102,
+    "key": "Gm",
+    "license": "CC0 1.0 Universal",
+    "sourceUrl": "https://github.com/marouaneouazry/9afiya",
+    "attributionText": "Generated procedurally with Darbouka & Krakeb",
+    "dateAdded": "2026-11-11",
+    "isProcedural": true
+  },
+  {
+    "id": "procedural-lofi-sunset",
+    "title": "Derb Sultan Lofi",
+    "producer": "9afiya Procedural Synth",
+    "bpm": 80,
+    "key": "Am",
+    "license": "CC0 1.0 Universal",
+    "sourceUrl": "https://github.com/marouaneouazry/9afiya",
+    "attributionText": "Generated procedurally with warm 808 sub and brush snares",
+    "dateAdded": "2026-11-11",
+    "isProcedural": true
+  }
+]
