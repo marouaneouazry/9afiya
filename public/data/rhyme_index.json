@@ -250,16 +250,6 @@
   ],
   "si": [
     {
-      "ar": "طاكسي",
-      "latn": "taxi",
-      "eng": "taxi (fr)",
-      "syllables": 2,
-      "frequency": 96,
-      "sensitive": false,
-      "rhymeKey": "si",
-      "isLoanword": true
-    },
-    {
       "ar": "سي",
       "latn": "ssi",
       "eng": "sir",
@@ -597,6 +587,16 @@
       "sensitive": false,
       "rhymeKey": "la",
       "theme": "animals"
+    },
+    {
+      "ar": "صندالة",
+      "latn": "sandala",
+      "eng": "sandal (fr sandale)",
+      "syllables": 3,
+      "frequency": 88,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "isLoanword": true
     },
     {
       "ar": "طبلة",
@@ -1161,15 +1161,6 @@
       "theme": "emotions"
     },
     {
-      "ar": "بيت نعاس",
-      "latn": "bitn3as",
-      "eng": "bedroom",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "as"
-    },
-    {
       "ar": "إحساس",
       "latn": "i7sas",
       "eng": "feeling",
@@ -1355,6 +1346,16 @@
       "sensitive": false,
       "rhymeKey": "ma",
       "theme": "emotions"
+    },
+    {
+      "ar": "سينما",
+      "latn": "sinima",
+      "eng": "cinema (fr cinéma)",
+      "syllables": 3,
+      "frequency": 86,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "isLoanword": true
     },
     {
       "ar": "بارتمة",
@@ -2189,7 +2190,7 @@
       "eng": "donkey",
       "syllables": 1,
       "frequency": 90,
-      "sensitive": false,
+      "sensitive": true,
       "rhymeKey": "ar",
       "theme": "animals"
     },
@@ -2504,6 +2505,16 @@
       "rhymeKey": "ar"
     },
     {
+      "ar": "بلاكار",
+      "latn": "plakar",
+      "eng": "closet (fr placard)",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ar",
+      "isLoanword": true
+    },
+    {
       "ar": "مؤتمر",
       "latn": "mo2tamar",
       "eng": "congress",
@@ -2745,16 +2756,6 @@
       "theme": "animals"
     },
     {
-      "ar": "سرّاق زّيت",
-      "latn": "srra9zzit",
-      "eng": "cockroach",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "it",
-      "theme": "animals"
-    },
-    {
       "ar": "تامعلميت",
       "latn": "tam3elmit",
       "eng": "skill",
@@ -2762,16 +2763,6 @@
       "frequency": 70,
       "sensitive": false,
       "rhymeKey": "it"
-    },
-    {
-      "ar": "بطاطا فريت",
-      "latn": "bTaTa frit",
-      "eng": "french fries",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "it",
-      "theme": "food"
     },
     {
       "ar": "متوسّط",
@@ -2876,15 +2867,6 @@
       "rhymeKey": "sa"
     },
     {
-      "ar": "شهر خمسة",
-      "latn": "ch8er khmsa",
-      "eng": "may",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "sa"
-    },
-    {
       "ar": "فرصة",
       "latn": "forSa",
       "eng": "opportunity",
@@ -2964,6 +2946,16 @@
       "frequency": 80,
       "sensitive": false,
       "rhymeKey": "sa"
+    },
+    {
+      "ar": "فاليزا",
+      "latn": "valisa",
+      "eng": "suitcase (es/fr)",
+      "syllables": 3,
+      "frequency": 78,
+      "sensitive": false,
+      "rhymeKey": "sa",
+      "isLoanword": true
     },
     {
       "ar": "كنيسة",
@@ -3082,7 +3074,7 @@
       "eng": "crazy",
       "syllables": 1,
       "frequency": 90,
-      "sensitive": false,
+      "sensitive": true,
       "rhymeKey": "il"
     },
     {
@@ -3380,15 +3372,6 @@
       "eng": "mobile",
       "syllables": 3,
       "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "il"
-    },
-    {
-      "ar": "ماشي عادل",
-      "latn": "machi 3aadil",
-      "eng": "unfair",
-      "syllables": 4,
-      "frequency": 60,
       "sensitive": false,
       "rhymeKey": "il"
     }
@@ -3913,16 +3896,6 @@
       "frequency": 60,
       "sensitive": false,
       "rhymeKey": "ri"
-    },
-    {
-      "ar": "عمود لفقري",
-      "latn": "3amoud lfi9ari",
-      "eng": "backbone",
-      "syllables": 5,
-      "frequency": 50,
-      "sensitive": false,
-      "rhymeKey": "ri",
-      "theme": "body"
     }
   ],
   "ra": [
@@ -4446,24 +4419,6 @@
       "rhymeKey": "ra"
     },
     {
-      "ar": "اللي مورا",
-      "latn": "lli mora",
-      "eng": "next",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ra"
-    },
-    {
-      "ar": "ديال الذرة",
-      "latn": "dyal ddarra",
-      "eng": "atomic",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ra"
-    },
-    {
       "ar": "مصغّرة",
       "latn": "moSghghara",
       "eng": "miniature",
@@ -4526,18 +4481,19 @@
       "frequency": 60,
       "sensitive": false,
       "rhymeKey": "ra"
-    },
-    {
-      "ar": "درجة الحرارة",
-      "latn": "darajat l7arara",
-      "eng": "temperature",
-      "syllables": 6,
-      "frequency": 50,
-      "sensitive": false,
-      "rhymeKey": "ra"
     }
   ],
   "da": [
+    {
+      "ar": "شلاضة",
+      "latn": "slada",
+      "eng": "salad (es/fr ensalada/salade)",
+      "syllables": 2,
+      "frequency": 91,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "isLoanword": true
+    },
     {
       "ar": "جردة",
       "latn": "jrda",
@@ -4657,6 +4613,16 @@
       "sensitive": false,
       "rhymeKey": "da",
       "theme": "body"
+    },
+    {
+      "ar": "رويدة",
+      "latn": "rweda",
+      "eng": "wheel (es rueda)",
+      "syllables": 2,
+      "frequency": 89,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "isLoanword": true
     },
     {
       "ar": "عادة",
@@ -4971,15 +4937,6 @@
       "rhymeKey": "da"
     },
     {
-      "ar": "فوق العادة",
-      "latn": "fo9 l3ada",
-      "eng": "extraordinary",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "da"
-    },
-    {
       "ar": "سعادة",
       "latn": "sa3ada",
       "eng": "happiness",
@@ -5013,15 +4970,6 @@
       "eng": "treaty",
       "syllables": 4,
       "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "da"
-    },
-    {
-      "ar": "خارق للعادة",
-      "latn": "khari9 lil3ada",
-      "eng": "extraordinary",
-      "syllables": 5,
-      "frequency": 50,
       "sensitive": false,
       "rhymeKey": "da"
     }
@@ -5306,16 +5254,6 @@
     }
   ],
   "erb": [
-    {
-      "ar": "درب",
-      "latn": "derb",
-      "eng": "alley / block",
-      "syllables": 1,
-      "frequency": 98,
-      "sensitive": false,
-      "rhymeKey": "erb",
-      "isLoanword": true
-    },
     {
       "ar": "درب",
       "latn": "drb",
@@ -6303,15 +6241,6 @@
       "rhymeKey": "ia"
     },
     {
-      "ar": "terbia",
-      "latn": "terbia",
-      "eng": "education",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ia"
-    },
-    {
       "ar": "كمية",
       "latn": "kimmiya",
       "eng": "amount",
@@ -6687,15 +6616,6 @@
       "rhymeKey": "ia"
     },
     {
-      "ar": "ت البلدية",
-      "latn": "tlbaladia",
-      "eng": "municipal",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ia"
-    },
-    {
       "ar": "كراهية",
       "latn": "karahia",
       "eng": "hatred",
@@ -6704,15 +6624,6 @@
       "sensitive": false,
       "rhymeKey": "ia",
       "theme": "emotions"
-    },
-    {
-      "ar": "أرض فلاحية",
-      "latn": "2ard fila7ia",
-      "eng": "field",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "ia"
     },
     {
       "ar": "تيكنولوجيا",
@@ -6763,6 +6674,16 @@
     }
   ],
   "at": [
+    {
+      "ar": "صباط",
+      "latn": "sebbat",
+      "eng": "shoes (es zapato)",
+      "syllables": 2,
+      "frequency": 94,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "isLoanword": true
+    },
     {
       "ar": "حياة",
       "latn": "7ayat",
@@ -7890,15 +7811,6 @@
       "rhymeKey": "ir"
     },
     {
-      "ar": "درّي صغير",
-      "latn": "derri sghir",
-      "eng": "child",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ir"
-    },
-    {
       "ar": "مؤشّر",
       "latn": "mo2ashshir",
       "eng": "index",
@@ -7970,34 +7882,6 @@
       "sensitive": false,
       "rhymeKey": "ir",
       "theme": "food"
-    },
-    {
-      "ar": "رئيس تحرير",
-      "latn": "ra2is ta7rir",
-      "eng": "editor",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "ir"
-    },
-    {
-      "ar": "غير مباشر",
-      "latn": "ghayr mobachir",
-      "eng": "indirect",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "ir"
-    },
-    {
-      "ar": "تأنيب الضمير",
-      "latn": "ta2nib damir",
-      "eng": "guilt",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "ir",
-      "theme": "emotions"
     }
   ],
   "ni": [
@@ -8231,15 +8115,6 @@
       "ar": "إلكتروني",
       "latn": "electroni",
       "eng": "electronic",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "ni"
-    },
-    {
-      "ar": "غير قانوني",
-      "latn": "ghayr 9anoni",
-      "eng": "illegal",
       "syllables": 4,
       "frequency": 60,
       "sensitive": false,
@@ -8522,146 +8397,6 @@
       "rhymeKey": "af"
     }
   ],
-  "ja": [
-    {
-      "ar": "لهجة",
-      "latn": "l8ja",
-      "eng": "accent",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "جا",
-      "latn": "ja",
-      "eng": "come",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "نجا",
-      "latn": "nja",
-      "eng": "survive",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "نعجة",
-      "latn": "n3ja",
-      "eng": "sheep",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ja",
-      "theme": "animals"
-    },
-    {
-      "ar": "تلاجة",
-      "latn": "tllaja",
-      "eng": "fridge",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "حاجة",
-      "latn": "7aja",
-      "eng": "thing",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "شارجا",
-      "latn": "charja",
-      "eng": "charge",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "تهجّا",
-      "latn": "t8ejja",
-      "eng": "spell",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "دجاجة",
-      "latn": "djaja",
-      "eng": "chicken",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ja",
-      "theme": "animals"
-    },
-    {
-      "ar": "شي حاجة",
-      "latn": "chi haja",
-      "eng": "something",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "نتيجة",
-      "latn": "natija",
-      "eng": "result",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "درجة",
-      "latn": "daraja",
-      "eng": "degree",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "پارتاجا",
-      "latn": "partaja",
-      "eng": "share",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    },
-    {
-      "ar": "قميجة",
-      "latn": "9amija",
-      "eng": "shirt",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ja",
-      "theme": "clothes"
-    },
-    {
-      "ar": "أقلّ حاجة",
-      "latn": "a9all haja",
-      "eng": "minimum",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "ja"
-    }
-  ],
   "ka": [
     {
       "ar": "بكا",
@@ -8836,6 +8571,16 @@
       "sensitive": false,
       "rhymeKey": "ka",
       "theme": "animals"
+    },
+    {
+      "ar": "مونيكة",
+      "latn": "monika",
+      "eng": "doll (es muñeca)",
+      "syllables": 3,
+      "frequency": 79,
+      "sensitive": false,
+      "rhymeKey": "ka",
+      "isLoanword": true
     },
     {
       "ar": "شركة",
@@ -9255,16 +9000,6 @@
       "frequency": 70,
       "sensitive": false,
       "rhymeKey": "hi"
-    },
-    {
-      "ar": "حمار وحشي",
-      "latn": "7imar wa7chi",
-      "eng": "zebra",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "hi",
-      "theme": "animals"
     }
   ],
   "a3": [
@@ -9553,16 +9288,6 @@
       "theme": "food"
     },
     {
-      "ar": "كعب غزال",
-      "latn": "k3bghzal",
-      "eng": "kaab ghzal",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "al",
-      "theme": "food"
-    },
-    {
       "ar": "سروال",
       "latn": "srwal",
       "eng": "pants",
@@ -9764,15 +9489,6 @@
       "rhymeKey": "al"
     },
     {
-      "ar": "رادّ لبال",
-      "latn": "radd lbal",
-      "eng": "careful",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "al"
-    },
-    {
       "ar": "مفضّل",
       "latn": "mofDDal",
       "eng": "favorite",
@@ -9849,15 +9565,6 @@
       "ar": "محتمل",
       "latn": "mo7tamal",
       "eng": "potential",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "al"
-    },
-    {
-      "ar": "فاقد لأمل",
-      "latn": "fa9d l2amal",
-      "eng": "desperate",
       "syllables": 3,
       "frequency": 70,
       "sensitive": false,
@@ -9997,16 +9704,6 @@
       "rhymeKey": "di"
     },
     {
-      "ar": "رزّة لقاضي",
-      "latn": "rzzt l9aDi",
-      "eng": "razzat el cadi",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "di",
-      "theme": "food"
-    },
-    {
       "ar": "تحدي",
       "latn": "ta7addi",
       "eng": "challenge",
@@ -10079,29 +9776,11 @@
       "rhymeKey": "di"
     },
     {
-      "ar": "غير مرضي",
-      "latn": "ghayr morDi",
-      "eng": "unsatisfactory",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "di"
-    },
-    {
       "ar": "تعاقدي",
       "latn": "ta3aa9odi",
       "eng": "contractual",
       "syllables": 4,
       "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "di"
-    },
-    {
-      "ar": "ركود إقتصادي",
-      "latn": "rokod 9tiSadi",
-      "eng": "recession",
-      "syllables": 5,
-      "frequency": 50,
       "sensitive": false,
       "rhymeKey": "di"
     }
@@ -10164,15 +9843,6 @@
       "theme": "food"
     },
     {
-      "ar": "ديال لفلوس",
-      "latn": "dyal lflous",
-      "eng": "monetary",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "us"
-    },
-    {
       "ar": "تنفّس",
       "latn": "tanffous",
       "eng": "breathing",
@@ -10181,15 +9851,6 @@
       "sensitive": false,
       "rhymeKey": "us",
       "theme": "body"
-    },
-    {
-      "ar": "رونديفو",
-      "latn": "rendez vous",
-      "eng": "date",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "us"
     }
   ],
   "9a": [
@@ -10551,6 +10212,76 @@
       "theme": "animals"
     },
     {
+      "ar": "كارطة",
+      "latn": "karta",
+      "eng": "card / playing card (es/fr)",
+      "syllables": 2,
+      "frequency": 89,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "isLoanword": true
+    },
+    {
+      "ar": "فرشيطة",
+      "latn": "farchita",
+      "eng": "fork (fr fourchette)",
+      "syllables": 3,
+      "frequency": 87,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "isLoanword": true
+    },
+    {
+      "ar": "مانطا",
+      "latn": "manta",
+      "eng": "blanket (es manta)",
+      "syllables": 2,
+      "frequency": 87,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "isLoanword": true
+    },
+    {
+      "ar": "فيستة",
+      "latn": "vesta",
+      "eng": "jacket (fr veste)",
+      "syllables": 2,
+      "frequency": 86,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "isLoanword": true
+    },
+    {
+      "ar": "بوسطة",
+      "latn": "bosta",
+      "eng": "post office (fr/es)",
+      "syllables": 2,
+      "frequency": 84,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "isLoanword": true
+    },
+    {
+      "ar": "كاسكيطة",
+      "latn": "kaskita",
+      "eng": "cap (fr casquette)",
+      "syllables": 3,
+      "frequency": 82,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "isLoanword": true
+    },
+    {
+      "ar": "سربيتة",
+      "latn": "serbita",
+      "eng": "napkin / towel (fr serviette)",
+      "syllables": 3,
+      "frequency": 82,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "isLoanword": true
+    },
+    {
       "ar": "فرشيطة",
       "latn": "frchiTa",
       "eng": "fork",
@@ -10708,18 +10439,19 @@
       "theme": "body"
     },
     {
+      "ar": "كرافاطة",
+      "latn": "kravata",
+      "eng": "necktie (fr cravate)",
+      "syllables": 3,
+      "frequency": 76,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "isLoanword": true
+    },
+    {
       "ar": "كارثة",
       "latn": "karita",
       "eng": "disaster",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ta"
-    },
-    {
-      "ar": "شهر تلاتة",
-      "latn": "chher tlata",
-      "eng": "march",
       "syllables": 3,
       "frequency": 70,
       "sensitive": false,
@@ -10790,6 +10522,27 @@
       "frequency": 60,
       "sensitive": false,
       "rhymeKey": "ta"
+    }
+  ],
+  "ero": [
+    {
+      "ar": "بيرو",
+      "latn": "biro",
+      "eng": "desk",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ero"
+    },
+    {
+      "ar": "كارو",
+      "latn": "garo",
+      "eng": "cigarette (es cigarro)",
+      "syllables": 1,
+      "frequency": 88,
+      "sensitive": false,
+      "rhymeKey": "ero",
+      "isLoanword": true
     }
   ],
   "ejm": [
@@ -11071,6 +10824,16 @@
   ],
   "na": [
     {
+      "ar": "كوزينة",
+      "latn": "kuzina",
+      "eng": "kitchen (es cocina / fr cuisine)",
+      "syllables": 3,
+      "frequency": 95,
+      "sensitive": false,
+      "rhymeKey": "na",
+      "isLoanword": true
+    },
+    {
       "ar": "سيمانة",
       "latn": "semana",
       "eng": "week (es)",
@@ -11179,6 +10942,16 @@
       "sensitive": false,
       "rhymeKey": "na",
       "theme": "body"
+    },
+    {
+      "ar": "سردينة",
+      "latn": "sardina",
+      "eng": "sardine (es sardina)",
+      "syllables": 3,
+      "frequency": 88,
+      "sensitive": false,
+      "rhymeKey": "na",
+      "isLoanword": true
     },
     {
       "ar": "روينة",
@@ -11366,6 +11139,16 @@
       "theme": "body"
     },
     {
+      "ar": "شيفونة",
+      "latn": "chiffona",
+      "eng": "rag (fr chiffon)",
+      "syllables": 3,
+      "frequency": 79,
+      "sensitive": false,
+      "rhymeKey": "na",
+      "isLoanword": true
+    },
+    {
       "ar": "كوزينة",
       "latn": "kouzina",
       "eng": "kitchen",
@@ -11484,6 +11267,16 @@
       "frequency": 90,
       "sensitive": false,
       "rhymeKey": "eko"
+    },
+    {
+      "ar": "تريكو",
+      "latn": "triko",
+      "eng": "sweater (fr tricot)",
+      "syllables": 1,
+      "frequency": 85,
+      "sensitive": false,
+      "rhymeKey": "eko",
+      "isLoanword": true
     }
   ],
   "adr": [
@@ -11794,15 +11587,6 @@
       "ar": "دين",
       "latn": "din",
       "eng": "debt",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "in"
-    },
-    {
-      "ar": "عشر سنين",
-      "latn": "3chr snin",
-      "eng": "decade",
       "syllables": 1,
       "frequency": 90,
       "sensitive": false,
@@ -12149,15 +11933,6 @@
       "ar": "نقاش",
       "latn": "ni9ach",
       "eng": "dialog",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ash"
-    },
-    {
-      "ar": "فلوس كاش",
-      "latn": "flous cash",
-      "eng": "cash",
       "syllables": 2,
       "frequency": 80,
       "sensitive": false,
@@ -12843,6 +12618,128 @@
       "rhymeKey": "im"
     }
   ],
+  "ja": [
+    {
+      "ar": "لهجة",
+      "latn": "l8ja",
+      "eng": "accent",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ja"
+    },
+    {
+      "ar": "جا",
+      "latn": "ja",
+      "eng": "come",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ja"
+    },
+    {
+      "ar": "نجا",
+      "latn": "nja",
+      "eng": "survive",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ja"
+    },
+    {
+      "ar": "نعجة",
+      "latn": "n3ja",
+      "eng": "sheep",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ja",
+      "theme": "animals"
+    },
+    {
+      "ar": "تلاجة",
+      "latn": "tllaja",
+      "eng": "fridge",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ja"
+    },
+    {
+      "ar": "حاجة",
+      "latn": "7aja",
+      "eng": "thing",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ja"
+    },
+    {
+      "ar": "شارجا",
+      "latn": "charja",
+      "eng": "charge",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ja"
+    },
+    {
+      "ar": "تهجّا",
+      "latn": "t8ejja",
+      "eng": "spell",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ja"
+    },
+    {
+      "ar": "دجاجة",
+      "latn": "djaja",
+      "eng": "chicken",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ja",
+      "theme": "animals"
+    },
+    {
+      "ar": "نتيجة",
+      "latn": "natija",
+      "eng": "result",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ja"
+    },
+    {
+      "ar": "درجة",
+      "latn": "daraja",
+      "eng": "degree",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ja"
+    },
+    {
+      "ar": "پارتاجا",
+      "latn": "partaja",
+      "eng": "share",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ja"
+    },
+    {
+      "ar": "قميجة",
+      "latn": "9amija",
+      "eng": "shirt",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ja",
+      "theme": "clothes"
+    }
+  ],
   "2i": [
     {
       "ar": "بيئة",
@@ -12875,15 +12772,6 @@
       "ar": "جزء",
       "latn": "joz2i",
       "eng": "partial",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "2i"
-    },
-    {
-      "ar": "وقت جزئي",
-      "latn": "w9t joz2i",
-      "eng": "part-time",
       "syllables": 2,
       "frequency": 80,
       "sensitive": false,
@@ -13132,218 +13020,6 @@
       "sensitive": false,
       "rhymeKey": "of",
       "theme": "emotions"
-    }
-  ],
-  "ad": [
-    {
-      "ar": "واد",
-      "latn": "wad",
-      "eng": "river",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "زاد",
-      "latn": "zad",
-      "eng": "add",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "ناض",
-      "latn": "naD",
-      "eng": "get up",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "قاد",
-      "latn": "9aad",
-      "eng": "lead",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "فاد",
-      "latn": "fad",
-      "eng": "benefit",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "ساد",
-      "latn": "saad",
-      "eng": "prevail",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "ساد",
-      "latn": "sad",
-      "eng": "closed",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "جراد",
-      "latn": "jrad",
-      "eng": "grasshoppers",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "ad",
-      "theme": "animals"
-    },
-    {
-      "ar": "فساد",
-      "latn": "fasad",
-      "eng": "corruption",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "غرض",
-      "latn": "gharad",
-      "eng": "business",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "قتصاد",
-      "latn": "9tiSad",
-      "eng": "economy",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "مرض",
-      "latn": "marad",
-      "eng": "disease",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "أُستاد",
-      "latn": "ostad",
-      "eng": "teacher",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "إعتقاد",
-      "latn": "3ti9ad",
-      "eng": "belief",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "إنخفاض",
-      "latn": "nkhifaD",
-      "eng": "decline",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "ستعاد",
-      "latn": "sta3aad",
-      "eng": "regain",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "محدّد",
-      "latn": "mo7ddad",
-      "eng": "particular",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "مؤكد",
-      "latn": "mo2kkad",
-      "eng": "sure",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "مجرّد",
-      "latn": "mojrrad",
-      "eng": "mere",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "جسد",
-      "latn": "jasad",
-      "eng": "body",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad",
-      "theme": "body"
-    },
-    {
-      "ar": "حسد",
-      "latn": "7asad",
-      "eng": "envy",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "ad",
-      "theme": "emotions"
-    },
-    {
-      "ar": "عيد ميلاد",
-      "latn": "3idmilad",
-      "eng": "birthday",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ad"
-    },
-    {
-      "ar": "اتحاد",
-      "latn": "itti7ad",
-      "eng": "union",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ad"
     }
   ],
   "id": [
@@ -13852,27 +13528,6 @@
       "rhymeKey": "etl"
     }
   ],
-  "uk": [
-    {
-      "ar": "حب لملوك",
-      "latn": "7blmlouk",
-      "eng": "cherry",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "uk",
-      "theme": "food"
-    },
-    {
-      "ar": "نشوفوك",
-      "latn": "nchoufouk",
-      "eng": "see you",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "uk"
-    }
-  ],
   "ab": [
     {
       "ar": "تقلاب",
@@ -14253,16 +13908,6 @@
       "rhymeKey": "za"
     },
     {
-      "ar": "فاليزا",
-      "latn": "valisa",
-      "eng": "suitcase (es/fr)",
-      "syllables": 3,
-      "frequency": 78,
-      "sensitive": false,
-      "rhymeKey": "za",
-      "isLoanword": true
-    },
-    {
       "ar": "جائزة",
       "latn": "ja2iza",
       "eng": "award",
@@ -14581,15 +14226,6 @@
       "ar": "مركبة",
       "latn": "markaba",
       "eng": "vehicle",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "ba"
-    },
-    {
-      "ar": "بالنيابة",
-      "latn": "b anniyaba",
-      "eng": "behalf",
       "syllables": 3,
       "frequency": 70,
       "sensitive": false,
@@ -14979,6 +14615,16 @@
       "sensitive": false,
       "rhymeKey": "un",
       "theme": "animals"
+    },
+    {
+      "ar": "كميون",
+      "latn": "kamyoun",
+      "eng": "truck (fr camion)",
+      "syllables": 2,
+      "frequency": 84,
+      "sensitive": false,
+      "rhymeKey": "un",
+      "isLoanword": true
     },
     {
       "ar": "قانون",
@@ -15513,6 +15159,26 @@
       "theme": "food"
     },
     {
+      "ar": "بانطالون",
+      "latn": "pantalon",
+      "eng": "trousers (fr pantalon)",
+      "syllables": 3,
+      "frequency": 89,
+      "sensitive": false,
+      "rhymeKey": "on",
+      "isLoanword": true
+    },
+    {
+      "ar": "بالكون",
+      "latn": "balkon",
+      "eng": "balcony (fr balcon)",
+      "syllables": 2,
+      "frequency": 84,
+      "sensitive": false,
+      "rhymeKey": "on",
+      "isLoanword": true
+    },
+    {
       "ar": "صابون",
       "latn": "Sabon",
       "eng": "soap",
@@ -15568,15 +15234,6 @@
       "isLoanword": true
     },
     {
-      "ar": "مشروع قانون",
-      "latn": "mchro3 9anon",
-      "eng": "bill",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "on"
-    },
-    {
       "ar": "توازن",
       "latn": "tawazon",
       "eng": "balance",
@@ -15625,6 +15282,16 @@
     }
   ],
   "mi": [
+    {
+      "ar": "بيرمي",
+      "latn": "permi",
+      "eng": "driver license (fr permis)",
+      "syllables": 2,
+      "frequency": 91,
+      "sensitive": false,
+      "rhymeKey": "mi",
+      "isLoanword": true
+    },
     {
       "ar": "رسمي",
       "latn": "rsmi",
@@ -15701,15 +15368,6 @@
       "ar": "سامي",
       "latn": "saami",
       "eng": "supreme",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "mi"
-    },
-    {
-      "ar": "غير رسمي",
-      "latn": "ghayr rsmi",
-      "eng": "informal",
       "syllables": 2,
       "frequency": 80,
       "sensitive": false,
@@ -16273,15 +15931,6 @@
       "frequency": 70,
       "sensitive": false,
       "rhymeKey": "ib"
-    },
-    {
-      "ar": "غير مناسب",
-      "latn": "ghayr monaasib",
-      "eng": "inappropriate",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "ib"
     }
   ],
   "i2": [
@@ -16329,26 +15978,6 @@
       "frequency": 70,
       "sensitive": false,
       "rhymeKey": "i2"
-    }
-  ],
-  "okm": [
-    {
-      "ar": "حكم",
-      "latn": "7okm",
-      "eng": "sentence",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "okm"
-    },
-    {
-      "ar": "النظام ديال الحكم",
-      "latn": "nniDam dial l7okm",
-      "eng": "regime",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "okm"
     }
   ],
   "en9": [
@@ -16456,6 +16085,209 @@
       "frequency": 90,
       "sensitive": false,
       "rhymeKey": "ess"
+    }
+  ],
+  "ad": [
+    {
+      "ar": "واد",
+      "latn": "wad",
+      "eng": "river",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "زاد",
+      "latn": "zad",
+      "eng": "add",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "ناض",
+      "latn": "naD",
+      "eng": "get up",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "قاد",
+      "latn": "9aad",
+      "eng": "lead",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "فاد",
+      "latn": "fad",
+      "eng": "benefit",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "ساد",
+      "latn": "saad",
+      "eng": "prevail",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "ساد",
+      "latn": "sad",
+      "eng": "closed",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "جراد",
+      "latn": "jrad",
+      "eng": "grasshoppers",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ad",
+      "theme": "animals"
+    },
+    {
+      "ar": "فساد",
+      "latn": "fasad",
+      "eng": "corruption",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "غرض",
+      "latn": "gharad",
+      "eng": "business",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "قتصاد",
+      "latn": "9tiSad",
+      "eng": "economy",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "مرض",
+      "latn": "marad",
+      "eng": "disease",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "أُستاد",
+      "latn": "ostad",
+      "eng": "teacher",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "إعتقاد",
+      "latn": "3ti9ad",
+      "eng": "belief",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "إنخفاض",
+      "latn": "nkhifaD",
+      "eng": "decline",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "ستعاد",
+      "latn": "sta3aad",
+      "eng": "regain",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "محدّد",
+      "latn": "mo7ddad",
+      "eng": "particular",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "مؤكد",
+      "latn": "mo2kkad",
+      "eng": "sure",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "مجرّد",
+      "latn": "mojrrad",
+      "eng": "mere",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad"
+    },
+    {
+      "ar": "جسد",
+      "latn": "jasad",
+      "eng": "body",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad",
+      "theme": "body"
+    },
+    {
+      "ar": "حسد",
+      "latn": "7asad",
+      "eng": "envy",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad",
+      "theme": "emotions"
+    },
+    {
+      "ar": "اتحاد",
+      "latn": "itti7ad",
+      "eng": "union",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ad"
     }
   ],
   "amn": [
@@ -16874,15 +16706,6 @@
       "eng": "french",
       "syllables": 3,
       "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "wi"
-    },
-    {
-      "ar": "غلاف جوّي",
-      "latn": "ghilaf jawwi",
-      "eng": "atmosphere",
-      "syllables": 4,
-      "frequency": 60,
       "sensitive": false,
       "rhymeKey": "wi"
     }
@@ -17865,6 +17688,16 @@
       "frequency": 90,
       "sensitive": false,
       "rhymeKey": "ere"
+    },
+    {
+      "ar": "أربيطر",
+      "latn": "arbitre",
+      "eng": "referee (fr arbitre)",
+      "syllables": 1,
+      "frequency": 81,
+      "sensitive": false,
+      "rhymeKey": "ere",
+      "isLoanword": true
     }
   ],
   "eb": [
@@ -19020,13 +18853,14 @@
       "theme": "body"
     },
     {
-      "ar": "كولّا شهر",
-      "latn": "kolla ch8er",
-      "eng": "monthly",
-      "syllables": 3,
-      "frequency": 70,
+      "ar": "كورنير",
+      "latn": "corner",
+      "eng": "corner kick (fr corner)",
+      "syllables": 2,
+      "frequency": 80,
       "sensitive": false,
-      "rhymeKey": "er"
+      "rhymeKey": "er",
+      "isLoanword": true
     }
   ],
   "etr": [
@@ -19918,16 +19752,6 @@
       "sensitive": false,
       "rhymeKey": "arn",
       "theme": "body"
-    },
-    {
-      "ar": "وحيد لقرن",
-      "latn": "wa7id l9arn",
-      "eng": "rhinoceros",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "arn",
-      "theme": "animals"
     }
   ],
   "ol": [
@@ -20060,6 +19884,16 @@
       "frequency": 90,
       "sensitive": false,
       "rhymeKey": "ese"
+    },
+    {
+      "ar": "فيتاس",
+      "latn": "vitesse",
+      "eng": "speed / gear (fr vitesse)",
+      "syllables": 1,
+      "frequency": 85,
+      "sensitive": false,
+      "rhymeKey": "ese",
+      "isLoanword": true
     }
   ],
   "o3": [
@@ -20271,6 +20105,16 @@
       "frequency": 80,
       "sensitive": false,
       "rhymeKey": "ot"
+    },
+    {
+      "ar": "كابو",
+      "latn": "capot",
+      "eng": "car hood (fr)",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ot",
+      "isLoanword": true
     },
     {
       "ar": "تورّط",
@@ -20674,7 +20518,7 @@
       "eng": "dog",
       "syllables": 1,
       "frequency": 90,
-      "sensitive": false,
+      "sensitive": true,
       "rhymeKey": "elb"
     },
     {
@@ -21153,6 +20997,16 @@
       "frequency": 90,
       "sensitive": false,
       "rhymeKey": "ede"
+    },
+    {
+      "ar": "سطاد",
+      "latn": "stade",
+      "eng": "stadium (fr stade)",
+      "syllables": 1,
+      "frequency": 87,
+      "sensitive": false,
+      "rhymeKey": "ede",
+      "isLoanword": true
     }
   ],
   "aml": [
@@ -21832,7 +21686,38 @@
       "rhymeKey": "e3"
     }
   ],
+  "ece": [
+    {
+      "ar": "راس",
+      "latn": "race",
+      "eng": "race",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ece"
+    },
+    {
+      "ar": "كلاص",
+      "latn": "glace",
+      "eng": "ice cream (fr glace)",
+      "syllables": 1,
+      "frequency": 88,
+      "sensitive": false,
+      "rhymeKey": "ece",
+      "isLoanword": true
+    }
+  ],
   "az": [
+    {
+      "ar": "كاز",
+      "latn": "gaz",
+      "eng": "gas (fr gaz)",
+      "syllables": 1,
+      "frequency": 91,
+      "sensitive": false,
+      "rhymeKey": "az",
+      "isLoanword": true
+    },
     {
       "ar": "ڭاز",
       "latn": "gaz",
@@ -21906,6 +21791,16 @@
       "frequency": 90,
       "sensitive": false,
       "rhymeKey": "ege"
+    },
+    {
+      "ar": "بلاج",
+      "latn": "plage",
+      "eng": "beach (fr plage)",
+      "syllables": 1,
+      "frequency": 89,
+      "sensitive": false,
+      "rhymeKey": "ege",
+      "isLoanword": true
     }
   ],
   "ezo": [
@@ -22392,6 +22287,26 @@
       "sensitive": false,
       "rhymeKey": "ene",
       "theme": "emotions"
+    },
+    {
+      "ar": "فران",
+      "latn": "frane",
+      "eng": "brakes (fr frein)",
+      "syllables": 1,
+      "frequency": 87,
+      "sensitive": false,
+      "rhymeKey": "ene",
+      "isLoanword": true
+    },
+    {
+      "ar": "بيسين",
+      "latn": "piscine",
+      "eng": "pool (fr piscine)",
+      "syllables": 1,
+      "frequency": 85,
+      "sensitive": false,
+      "rhymeKey": "ene",
+      "isLoanword": true
     }
   ],
   "axr": [
@@ -23344,6 +23259,27 @@
       "theme": "emotions"
     }
   ],
+  "eto": [
+    {
+      "ar": "باطو",
+      "latn": "baTo",
+      "eng": "ship",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eto"
+    },
+    {
+      "ar": "كاطو",
+      "latn": "gato",
+      "eng": "cake (fr gâteau)",
+      "syllables": 1,
+      "frequency": 86,
+      "sensitive": false,
+      "rhymeKey": "eto",
+      "isLoanword": true
+    }
+  ],
   "elj": [
     {
       "ar": "تلج",
@@ -24023,6 +23959,16 @@
       "frequency": 90,
       "sensitive": false,
       "rhymeKey": "et"
+    },
+    {
+      "ar": "كيشي",
+      "latn": "guichet",
+      "eng": "ATM / counter (fr)",
+      "syllables": 2,
+      "frequency": 88,
+      "sensitive": false,
+      "rhymeKey": "et",
+      "isLoanword": true
     },
     {
       "ar": "رتابط",
@@ -25136,7 +25082,7 @@
       "eng": "mule",
       "syllables": 1,
       "frequency": 90,
-      "sensitive": false,
+      "sensitive": true,
       "rhymeKey": "ehl",
       "theme": "animals"
     }
@@ -26227,15 +26173,6 @@
       "frequency": 70,
       "sensitive": false,
       "rhymeKey": "9i"
-    },
-    {
-      "ar": "غير منطقي",
-      "latn": "ghayr mnTi9i",
-      "eng": "unreasonable",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "9i"
     }
   ],
   "3i": [
@@ -26364,24 +26301,6 @@
       "frequency": 70,
       "sensitive": false,
       "rhymeKey": "3i"
-    },
-    {
-      "ar": "ماشي موضوعي",
-      "latn": "machi mawDoo3i",
-      "eng": "subjective",
-      "syllables": 5,
-      "frequency": 50,
-      "sensitive": false,
-      "rhymeKey": "3i"
-    },
-    {
-      "ar": "ماشي طبيعي",
-      "latn": "machi Tabi3i",
-      "eng": "abnormal",
-      "syllables": 5,
-      "frequency": 50,
-      "sensitive": false,
-      "rhymeKey": "3i"
     }
   ],
   "ki": [
@@ -26393,6 +26312,16 @@
       "frequency": 90,
       "sensitive": false,
       "rhymeKey": "ki"
+    },
+    {
+      "ar": "بريكي",
+      "latn": "briki",
+      "eng": "lighter (fr briquet)",
+      "syllables": 2,
+      "frequency": 86,
+      "sensitive": false,
+      "rhymeKey": "ki",
+      "isLoanword": true
     },
     {
       "ar": "مشوكي",
@@ -26495,6 +26424,16 @@
     }
   ],
   "xi": [
+    {
+      "ar": "طاكسي",
+      "latn": "taxi",
+      "eng": "taxi (fr)",
+      "syllables": 2,
+      "frequency": 96,
+      "sensitive": false,
+      "rhymeKey": "xi",
+      "isLoanword": true
+    },
     {
       "ar": "سخي",
       "latn": "skhi",
@@ -27109,28 +27048,6 @@
       "sensitive": false,
       "rhymeKey": "ig",
       "theme": "emotions"
-    }
-  ],
-  "po": [
-    {
-      "ar": "كابو",
-      "latn": "capo",
-      "eng": "boss / mob leader (it/es)",
-      "syllables": 2,
-      "frequency": 85,
-      "sensitive": false,
-      "rhymeKey": "po",
-      "isLoanword": true
-    },
-    {
-      "ar": "كابو",
-      "latn": "capot",
-      "eng": "car hood (fr)",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "po",
-      "isLoanword": true
     }
   ]
 }

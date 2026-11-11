@@ -1,7 +1,7 @@
 [
   {
     "rhymeKey": "ar",
-    "phoneticEnding": "-ar (دار / نهار / جار)",
+    "phoneticEnding": "-ar (دار / شفار / نهار)",
     "type": "perfect",
     "vowelNucleus": "a",
     "coda": "r",
@@ -9,9 +9,17 @@
       {
         "ar": "دار",
         "latn": "dar",
-        "eng": "house / home",
+        "eng": "house",
         "syllables": 1,
-        "frequency": 98,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "شفار",
+        "latn": "chffar",
+        "eng": "thief",
+        "syllables": 1,
+        "frequency": 90,
         "sensitive": false
       },
       {
@@ -19,407 +27,285 @@
         "latn": "nhar",
         "eng": "day",
         "syllables": 1,
-        "frequency": 95,
+        "frequency": 90,
         "sensitive": false
       },
       {
         "ar": "جار",
         "latn": "jar",
-        "eng": "neighbour",
+        "eng": "neighbor",
         "syllables": 1,
-        "frequency": 84,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "نار",
-        "latn": "nar",
-        "eng": "fire",
+        "ar": "مصدر",
+        "latn": "mSdar",
+        "eng": "reference",
         "syllables": 1,
-        "frequency": 82,
-        "sensitive": false
-      },
-      {
-        "ar": "فار",
-        "latn": "far",
-        "eng": "mouse / rat",
-        "syllables": 1,
-        "frequency": 70,
-        "sensitive": false
-      }
-    ]
-  },
-  {
-    "rhymeKey": "ayn",
-    "phoneticEnding": "-ayn (عين / زين / باين)",
-    "type": "perfect",
-    "vowelNucleus": "ay",
-    "coda": "n",
-    "words": [
-      {
-        "ar": "عين",
-        "latn": "3ayn",
-        "eng": "eye / spring",
-        "syllables": 1,
-        "frequency": 96,
-        "sensitive": false
-      },
-      {
-        "ar": "زين",
-        "latn": "zayn",
-        "eng": "beauty / handsome",
-        "syllables": 1,
-        "frequency": 91,
-        "sensitive": false
-      },
-      {
-        "ar": "باين",
-        "latn": "bayn",
-        "eng": "clear / visible",
-        "syllables": 1,
-        "frequency": 93,
-        "sensitive": false
-      },
-      {
-        "ar": "فين",
-        "latn": "fayn",
-        "eng": "where",
-        "syllables": 1,
-        "frequency": 99,
-        "sensitive": false
-      },
-      {
-        "ar": "دين",
-        "latn": "dayn",
-        "eng": "debt / religion",
-        "syllables": 1,
-        "frequency": 78,
+        "frequency": 90,
         "sensitive": false
       }
     ]
   },
   {
     "rhymeKey": "am",
-    "phoneticEnding": "-am (كلام / سلام / حلام)",
+    "phoneticEnding": "-am (عام / حمّام / زحام)",
     "type": "perfect",
     "vowelNucleus": "a",
     "coda": "m",
     "words": [
       {
-        "ar": "كلام",
-        "latn": "klam",
-        "eng": "words / speech",
+        "ar": "عام",
+        "latn": "3am",
+        "eng": "year",
         "syllables": 1,
-        "frequency": 97,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "سلام",
-        "latn": "slam",
-        "eng": "peace / greeting",
+        "ar": "حمّام",
+        "latn": "7mmam",
+        "eng": "bathroom",
         "syllables": 1,
-        "frequency": 99,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "حلام",
-        "latn": "hlam",
-        "eng": "dreams",
+        "ar": "زحام",
+        "latn": "z7am",
+        "eng": "crowdedness",
         "syllables": 1,
-        "frequency": 85,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "حرام",
-        "latn": "hram",
-        "eng": "forbidden / sin",
+        "ar": "توام",
+        "latn": "twam",
+        "eng": "twins",
         "syllables": 1,
-        "frequency": 92,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "ظلام",
-        "latn": "Dlam",
-        "eng": "darkness",
+        "ar": "لام",
+        "latn": "laam",
+        "eng": "blame",
         "syllables": 1,
-        "frequency": 80,
+        "frequency": 90,
         "sensitive": false
       }
     ]
   },
   {
     "rhymeKey": "ad",
-    "phoneticEnding": "-ad (بلاد / ولاد / عباد)",
+    "phoneticEnding": "-ad (واد / زاد / ناض)",
     "type": "perfect",
     "vowelNucleus": "a",
     "coda": "d",
     "words": [
       {
-        "ar": "بلاد",
-        "latn": "blad",
-        "eng": "country / land",
+        "ar": "واد",
+        "latn": "wad",
+        "eng": "river",
         "syllables": 1,
-        "frequency": 98,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "ولاد",
-        "latn": "wlad",
-        "eng": "boys / sons",
+        "ar": "زاد",
+        "latn": "zad",
+        "eng": "add",
         "syllables": 1,
-        "frequency": 94,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "عباد",
-        "latn": "3bad",
-        "eng": "people / servants",
+        "ar": "ناض",
+        "latn": "naD",
+        "eng": "get up",
         "syllables": 1,
-        "frequency": 88,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "عواد",
-        "latn": "3wad",
-        "eng": "sticks / lute",
+        "ar": "قاد",
+        "latn": "9aad",
+        "eng": "lead",
         "syllables": 1,
-        "frequency": 65,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "مراد",
-        "latn": "mrad",
-        "eng": "sick (plural) / desire",
+        "ar": "فاد",
+        "latn": "fad",
+        "eng": "benefit",
         "syllables": 1,
-        "frequency": 72,
+        "frequency": 90,
         "sensitive": false
       }
     ]
   },
   {
     "rhymeKey": "wa",
-    "phoneticEnding": "-wa (قهوة / شهوة / دعوة)",
+    "phoneticEnding": "-wa (هوا / خطوة / رشوة)",
     "type": "perfect",
     "vowelNucleus": "a",
     "coda": "wa",
     "words": [
       {
-        "ar": "قهوة",
-        "latn": "9ahwa",
-        "eng": "coffee / café",
-        "syllables": 2,
-        "frequency": 95,
-        "sensitive": false
-      },
-      {
-        "ar": "شهوة",
-        "latn": "chhwa",
-        "eng": "craving / appetite",
-        "syllables": 2,
-        "frequency": 80,
-        "sensitive": false
-      },
-      {
-        "ar": "دعوة",
-        "latn": "da3wa",
-        "eng": "prayer / lawsuit",
-        "syllables": 2,
-        "frequency": 87,
-        "sensitive": false
-      },
-      {
-        "ar": "فتوة",
-        "latn": "fatwa",
-        "eng": "religious ruling",
-        "syllables": 2,
-        "frequency": 71,
-        "sensitive": false
-      },
-      {
-        "ar": "قوة",
-        "latn": "qwa",
-        "eng": "strength / power",
+        "ar": "هوا",
+        "latn": "8wa",
+        "eng": "air",
         "syllables": 1,
-        "frequency": 89,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "خطوة",
+        "latn": "khTwa",
+        "eng": "step",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "رشوة",
+        "latn": "rchwa",
+        "eng": "bribery",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "نوا",
+        "latn": "nwa",
+        "eng": "intent",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "دوا",
+        "latn": "dwa",
+        "eng": "speak",
+        "syllables": 1,
+        "frequency": 90,
         "sensitive": false
       }
     ]
   },
   {
     "rhymeKey": "la",
-    "phoneticEnding": "-la (طبلة / هبلة / ربلة)",
+    "phoneticEnding": "-la (نخلة / مكحلة / حفلة)",
     "type": "perfect",
     "vowelNucleus": "a",
     "coda": "la",
     "words": [
       {
-        "ar": "طبلة",
-        "latn": "tabla",
-        "eng": "table / drum",
-        "syllables": 2,
-        "frequency": 92,
-        "sensitive": false
-      },
-      {
-        "ar": "هبلة",
-        "latn": "hebla",
-        "eng": "crazy (f)",
-        "syllables": 2,
-        "frequency": 79,
-        "sensitive": false
-      },
-      {
-        "ar": "ربلة",
-        "latn": "rebla",
-        "eng": "mess / chaos",
-        "syllables": 2,
-        "frequency": 83,
-        "sensitive": false
-      },
-      {
-        "ar": "حفلة",
-        "latn": "hafla",
-        "eng": "party / celebration",
-        "syllables": 2,
-        "frequency": 86,
-        "sensitive": false
-      },
-      {
-        "ar": "جملة",
-        "latn": "joumla",
-        "eng": "sentence / wholesale",
-        "syllables": 2,
-        "frequency": 75,
-        "sensitive": false
-      }
-    ]
-  },
-  {
-    "rhymeKey": "erb",
-    "phoneticEnding": "-rb (درب / هرب / ضرب)",
-    "type": "perfect",
-    "vowelNucleus": "e",
-    "coda": "rb",
-    "words": [
-      {
-        "ar": "درب",
-        "latn": "derb",
-        "eng": "alley / neighborhood",
-        "syllables": 1,
-        "frequency": 96,
-        "sensitive": false
-      },
-      {
-        "ar": "هرب",
-        "latn": "hreb",
-        "eng": "fled / ran away",
+        "ar": "نخلة",
+        "latn": "nkhla",
+        "eng": "date palm",
         "syllables": 1,
         "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "ضرب",
-        "latn": "Dreb",
-        "eng": "hit / struck",
+        "ar": "مكحلة",
+        "latn": "mk7la",
+        "eng": "rifle",
         "syllables": 1,
-        "frequency": 93,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "غرب",
-        "latn": "ghreb",
-        "eng": "west / strange",
+        "ar": "حفلة",
+        "latn": "7fla",
+        "eng": "party",
         "syllables": 1,
-        "frequency": 82,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "قرب",
-        "latn": "qreb",
-        "eng": "approached / near",
+        "ar": "متلة",
+        "latn": "mtla",
+        "eng": "proverb",
         "syllables": 1,
-        "frequency": 87,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "سنسلة",
+        "latn": "snsla",
+        "eng": "chain",
+        "syllables": 1,
+        "frequency": 90,
         "sensitive": false
       }
     ]
   },
   {
     "rhymeKey": "il",
-    "phoneticEnding": "-il (ليل / طويل / قليل)",
+    "phoneticEnding": "-il (طبسيل / ليل / تحليل)",
     "type": "perfect",
     "vowelNucleus": "i",
     "coda": "l",
     "words": [
       {
+        "ar": "طبسيل",
+        "latn": "Tbsil",
+        "eng": "plate",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
         "ar": "ليل",
         "latn": "lil",
         "eng": "night",
         "syllables": 1,
-        "frequency": 99,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "طويل",
-        "latn": "Twil",
-        "eng": "tall / long",
-        "syllables": 2,
-        "frequency": 91,
+        "ar": "تحليل",
+        "latn": "t7lil",
+        "eng": "analysis",
+        "syllables": 1,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "قليل",
-        "latn": "qlil",
-        "eng": "little / few",
-        "syllables": 2,
-        "frequency": 93,
+        "ar": "تسجيل",
+        "latn": "tsjil",
+        "eng": "record",
+        "syllables": 1,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "تقيل",
-        "latn": "tqil",
-        "eng": "heavy / slow",
-        "syllables": 2,
-        "frequency": 86,
-        "sensitive": false
-      },
-      {
-        "ar": "دليل",
-        "latn": "dlil",
-        "eng": "proof / guide",
-        "syllables": 2,
-        "frequency": 77,
+        "ar": "جيل",
+        "latn": "jil",
+        "eng": "generation",
+        "syllables": 1,
+        "frequency": 90,
         "sensitive": false
       }
     ]
   },
   {
     "rhymeKey": "as",
-    "phoneticEnding": "-as (راس / ناس / كاس)",
+    "phoneticEnding": "-as (كاس / نعاس / خلاص)",
     "type": "perfect",
     "vowelNucleus": "a",
     "coda": "s",
     "words": [
       {
-        "ar": "راس",
-        "latn": "ras",
-        "eng": "head",
-        "syllables": 1,
-        "frequency": 99,
-        "sensitive": false
-      },
-      {
-        "ar": "ناس",
-        "latn": "nas",
-        "eng": "people",
-        "syllables": 1,
-        "frequency": 100,
-        "sensitive": false
-      },
-      {
         "ar": "كاس",
         "latn": "kas",
-        "eng": "glass / cup",
+        "eng": "glass",
         "syllables": 1,
-        "frequency": 94,
+        "frequency": 90,
         "sensitive": false
       },
       {
@@ -427,64 +313,170 @@
         "latn": "n3as",
         "eng": "sleep",
         "syllables": 1,
-        "frequency": 89,
+        "frequency": 90,
         "sensitive": false
       },
       {
-        "ar": "حساس",
-        "latn": "Hsas",
-        "eng": "sensitive / feeling",
-        "syllables": 2,
-        "frequency": 81,
+        "ar": "خلاص",
+        "latn": "khlaS",
+        "eng": "payment",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "حبّاس",
+        "latn": "7bbas",
+        "eng": "prisoner",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "قرطاس",
+        "latn": "9rtas",
+        "eng": "gun bullets",
+        "syllables": 1,
+        "frequency": 90,
         "sensitive": false
       }
     ]
   },
   {
     "rhymeKey": "uj",
-    "phoneticEnding": "-uj (فوج / موج / خروج)",
+    "phoneticEnding": "-uj (دروج / منتوج / فروج)",
     "type": "perfect",
     "vowelNucleus": "u",
     "coda": "j",
     "words": [
       {
-        "ar": "موج",
-        "latn": "mouj",
-        "eng": "waves",
-        "syllables": 1,
-        "frequency": 80,
-        "sensitive": false
-      },
-      {
-        "ar": "خروج",
-        "latn": "khrouj",
-        "eng": "exit / departure",
-        "syllables": 2,
-        "frequency": 85,
-        "sensitive": false
-      },
-      {
-        "ar": "عوج",
-        "latn": "3wej",
-        "eng": "crooked / bent",
-        "syllables": 1,
-        "frequency": 74,
-        "sensitive": false
-      },
-      {
         "ar": "دروج",
         "latn": "drouj",
         "eng": "stairs",
         "syllables": 1,
-        "frequency": 82,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "منتوج",
+        "latn": "mntouj",
+        "eng": "product",
+        "syllables": 1,
+        "frequency": 90,
         "sensitive": false
       },
       {
         "ar": "فروج",
-        "latn": "farrouj",
-        "eng": "rooster",
+        "latn": "frouj",
+        "eng": "cock",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "فرّوج",
+        "latn": "ferrouj",
+        "eng": "cock",
         "syllables": 2,
-        "frequency": 68,
+        "frequency": 80,
+        "sensitive": false
+      }
+    ]
+  },
+  {
+    "rhymeKey": "at",
+    "phoneticEnding": "-at (صباط / حياة / سكات)",
+    "type": "perfect",
+    "vowelNucleus": "a",
+    "coda": "t",
+    "words": [
+      {
+        "ar": "صباط",
+        "latn": "sebbat",
+        "eng": "shoes (es zapato)",
+        "syllables": 2,
+        "frequency": 94,
+        "sensitive": false
+      },
+      {
+        "ar": "حياة",
+        "latn": "7ayat",
+        "eng": "life",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "سكات",
+        "latn": "skat",
+        "eng": "silence",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "خط",
+        "latn": "khaT",
+        "eng": "lane",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "الذات",
+        "latn": "ddat",
+        "eng": "self",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      }
+    ]
+  },
+  {
+    "rhymeKey": "an",
+    "phoneticEnding": "-an (دخان / فران / فران)",
+    "type": "perfect",
+    "vowelNucleus": "a",
+    "coda": "n",
+    "words": [
+      {
+        "ar": "دخان",
+        "latn": "dkhan",
+        "eng": "smoke",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "فران",
+        "latn": "frran",
+        "eng": "oven",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "فران",
+        "latn": "fran",
+        "eng": "brake",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "نڭّان",
+        "latn": "nggan",
+        "eng": "harassment",
+        "syllables": 1,
+        "frequency": 90,
+        "sensitive": false
+      },
+      {
+        "ar": "كان",
+        "latn": "kan",
+        "eng": "was",
+        "syllables": 1,
+        "frequency": 90,
         "sensitive": false
       }
     ]

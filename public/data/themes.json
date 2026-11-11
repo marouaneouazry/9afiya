@@ -401,16 +401,6 @@
       "theme": "food"
     },
     {
-      "ar": "حب لملوك",
-      "latn": "7blmlouk",
-      "eng": "cherry",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "uk",
-      "theme": "food"
-    },
-    {
       "ar": "أناناس",
       "latn": "ananas",
       "eng": "pineapple",
@@ -1111,16 +1101,6 @@
       "theme": "food"
     },
     {
-      "ar": "بطاطا فريت",
-      "latn": "bTaTa frit",
-      "eng": "french fries",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "it",
-      "theme": "food"
-    },
-    {
       "ar": "سقّاطة",
       "latn": "s99aTa",
       "eng": "candy",
@@ -1191,16 +1171,6 @@
       "theme": "food"
     },
     {
-      "ar": "كعب غزال",
-      "latn": "k3bghzal",
-      "eng": "kaab ghzal",
-      "syllables": 1,
-      "frequency": 90,
-      "sensitive": false,
-      "rhymeKey": "al",
-      "theme": "food"
-    },
-    {
       "ar": "سلّو",
       "latn": "sellou",
       "eng": "sellou",
@@ -1248,16 +1218,6 @@
       "frequency": 80,
       "sensitive": false,
       "rhymeKey": "at",
-      "theme": "food"
-    },
-    {
-      "ar": "رزّة لقاضي",
-      "latn": "rzzt l9aDi",
-      "eng": "razzat el cadi",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "di",
       "theme": "food"
     },
     {
@@ -1680,7 +1640,7 @@
       "eng": "donkey",
       "syllables": 1,
       "frequency": 90,
-      "sensitive": false,
+      "sensitive": true,
       "rhymeKey": "ar",
       "theme": "animals"
     },
@@ -1800,7 +1760,7 @@
       "eng": "mule",
       "syllables": 1,
       "frequency": 90,
-      "sensitive": false,
+      "sensitive": true,
       "rhymeKey": "ehl",
       "theme": "animals"
     },
@@ -2465,16 +2425,6 @@
       "theme": "animals"
     },
     {
-      "ar": "سرّاق زّيت",
-      "latn": "srra9zzit",
-      "eng": "cockroach",
-      "syllables": 2,
-      "frequency": 80,
-      "sensitive": false,
-      "rhymeKey": "it",
-      "theme": "animals"
-    },
-    {
       "ar": "بوجعران",
       "latn": "boj3ran",
       "eng": "cockroach",
@@ -2532,36 +2482,6 @@
       "frequency": 90,
       "sensitive": false,
       "rhymeKey": "ul",
-      "theme": "animals"
-    },
-    {
-      "ar": "فرس النهر",
-      "latn": "faras nna8r",
-      "eng": "hippopotamus",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "a8r",
-      "theme": "animals"
-    },
-    {
-      "ar": "وحيد لقرن",
-      "latn": "wa7id l9arn",
-      "eng": "rhinoceros",
-      "syllables": 3,
-      "frequency": 70,
-      "sensitive": false,
-      "rhymeKey": "arn",
-      "theme": "animals"
-    },
-    {
-      "ar": "حمار وحشي",
-      "latn": "7imar wa7chi",
-      "eng": "zebra",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "hi",
       "theme": "animals"
     },
     {
@@ -3177,16 +3097,6 @@
       "theme": "body"
     },
     {
-      "ar": "عمود لفقري",
-      "latn": "3amoud lfi9ari",
-      "eng": "backbone",
-      "syllables": 5,
-      "frequency": 50,
-      "sensitive": false,
-      "rhymeKey": "ri",
-      "theme": "body"
-    },
-    {
       "ar": "الشوف",
       "latn": "chchouf",
       "eng": "sight",
@@ -3566,16 +3476,6 @@
       "frequency": 90,
       "sensitive": false,
       "rhymeKey": "enb",
-      "theme": "emotions"
-    },
-    {
-      "ar": "تأنيب الضمير",
-      "latn": "ta2nib damir",
-      "eng": "guilt",
-      "syllables": 4,
-      "frequency": 60,
-      "sensitive": false,
-      "rhymeKey": "ir",
       "theme": "emotions"
     },
     {
