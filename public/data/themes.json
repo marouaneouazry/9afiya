@@ -1,0 +1,3912 @@
+{
+  "food": [
+    {
+      "ar": "خضرة",
+      "latn": "khDra",
+      "eng": "vegetables",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ra",
+      "theme": "food"
+    },
+    {
+      "ar": "بصلة",
+      "latn": "bsla",
+      "eng": "onion",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "food"
+    },
+    {
+      "ar": "مطيشة",
+      "latn": "maticha",
+      "eng": "tomato",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ha",
+      "theme": "food"
+    },
+    {
+      "ar": "جلبانة",
+      "latn": "jelbana",
+      "eng": "pea",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "na",
+      "theme": "food"
+    },
+    {
+      "ar": "دنجال",
+      "latn": "dnjal",
+      "eng": "eggplant",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "al",
+      "theme": "food"
+    },
+    {
+      "ar": "ڭرعة",
+      "latn": "gar3a",
+      "eng": "pumpkin",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "3a",
+      "theme": "food"
+    },
+    {
+      "ar": "مكوّر",
+      "latn": "mkowwr",
+      "eng": "cabbage",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "owwr",
+      "theme": "food"
+    },
+    {
+      "ar": "بطاطا",
+      "latn": "btata",
+      "eng": "potato",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "theme": "food"
+    },
+    {
+      "ar": "خيار",
+      "latn": "khyar",
+      "eng": "cucumber",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ar",
+      "theme": "food"
+    },
+    {
+      "ar": "خيزو",
+      "latn": "khizo",
+      "eng": "carrot",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ezo",
+      "theme": "food"
+    },
+    {
+      "ar": "تومة",
+      "latn": "touma",
+      "eng": "garlic",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "theme": "food"
+    },
+    {
+      "ar": "شيفلور",
+      "latn": "chiflour",
+      "eng": "cauliflower",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ur",
+      "theme": "food"
+    },
+    {
+      "ar": "قوق",
+      "latn": "9o9",
+      "eng": "artichokes",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "o9",
+      "theme": "food"
+    },
+    {
+      "ar": "خرشوف",
+      "latn": "khrchouf",
+      "eng": "cardoon",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "uf",
+      "theme": "food"
+    },
+    {
+      "ar": "فلفلة",
+      "latn": "flfla",
+      "eng": "pepper",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "food"
+    },
+    {
+      "ar": "فجل",
+      "latn": "fjl",
+      "eng": "radishes",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ejl",
+      "theme": "food"
+    },
+    {
+      "ar": "لوبيا",
+      "latn": "loubia",
+      "eng": "beans",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ia",
+      "theme": "food"
+    },
+    {
+      "ar": "بسباس",
+      "latn": "bsbas",
+      "eng": "fennel",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "as",
+      "theme": "food"
+    },
+    {
+      "ar": "خص",
+      "latn": "khoss",
+      "eng": "lettuce",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "oss",
+      "theme": "food"
+    },
+    {
+      "ar": "لفت",
+      "latn": "lft",
+      "eng": "turnip",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eft",
+      "theme": "food"
+    },
+    {
+      "ar": "كبال",
+      "latn": "kbal",
+      "eng": "maize",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "al",
+      "theme": "food"
+    },
+    {
+      "ar": "قزبور",
+      "latn": "9zbour",
+      "eng": "coriander",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ur",
+      "theme": "food"
+    },
+    {
+      "ar": "معدنوس",
+      "latn": "m3dnous",
+      "eng": "parsley",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "us",
+      "theme": "food"
+    },
+    {
+      "ar": "زيتون",
+      "latn": "zitoun",
+      "eng": "olives",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "un",
+      "theme": "food"
+    },
+    {
+      "ar": "باربا",
+      "latn": "barba",
+      "eng": "beet",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ba",
+      "theme": "food"
+    },
+    {
+      "ar": "كرافص",
+      "latn": "krafS",
+      "eng": "celery",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "afs",
+      "theme": "food"
+    },
+    {
+      "ar": "كورجيط",
+      "latn": "kourjiT",
+      "eng": "courgette",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "it",
+      "theme": "food"
+    },
+    {
+      "ar": "ديسير",
+      "latn": "dissir",
+      "eng": "fruits",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ir",
+      "theme": "food"
+    },
+    {
+      "ar": "تفاح",
+      "latn": "tfa7",
+      "eng": "apple",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "a7",
+      "theme": "food"
+    },
+    {
+      "ar": "بوعويد",
+      "latn": "bou3ouid",
+      "eng": "pear",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "uid",
+      "theme": "food"
+    },
+    {
+      "ar": "فريز",
+      "latn": "friz",
+      "eng": "strawberry",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "iz",
+      "theme": "food"
+    },
+    {
+      "ar": "أڤوكا",
+      "latn": "avoka",
+      "eng": "avocado",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ka",
+      "theme": "food"
+    },
+    {
+      "ar": "عنب",
+      "latn": "3nb",
+      "eng": "grape",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "enb",
+      "theme": "food"
+    },
+    {
+      "ar": "كرموس",
+      "latn": "krmous",
+      "eng": "fig",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "us",
+      "theme": "food"
+    },
+    {
+      "ar": "ليمون",
+      "latn": "limoun",
+      "eng": "orange",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "un",
+      "theme": "food"
+    },
+    {
+      "ar": "حامض",
+      "latn": "7amd",
+      "eng": "lemon",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "amd",
+      "theme": "food"
+    },
+    {
+      "ar": "رمان",
+      "latn": "rman",
+      "eng": "pomegranate",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "an",
+      "theme": "food"
+    },
+    {
+      "ar": "دلاح",
+      "latn": "dla7",
+      "eng": "watermelon",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "a7",
+      "theme": "food"
+    },
+    {
+      "ar": "خوخ",
+      "latn": "khoukh",
+      "eng": "peach",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ux",
+      "theme": "food"
+    },
+    {
+      "ar": "كيوي",
+      "latn": "kiwi",
+      "eng": "kiwi",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "wi",
+      "theme": "food"
+    },
+    {
+      "ar": "حب لملوك",
+      "latn": "7blmlouk",
+      "eng": "cherry",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "uk",
+      "theme": "food"
+    },
+    {
+      "ar": "أناناس",
+      "latn": "ananas",
+      "eng": "pineapple",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "as",
+      "theme": "food"
+    },
+    {
+      "ar": "منون",
+      "latn": "mnoun",
+      "eng": "melon",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "un",
+      "theme": "food"
+    },
+    {
+      "ar": "سويهلة",
+      "latn": "swi8la",
+      "eng": "melon",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "food"
+    },
+    {
+      "ar": "بنان",
+      "latn": "banan",
+      "eng": "banana",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "an",
+      "theme": "food"
+    },
+    {
+      "ar": "مشماش",
+      "latn": "mchmach",
+      "eng": "apricot",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ash",
+      "theme": "food"
+    },
+    {
+      "ar": "مانڭ",
+      "latn": "mang",
+      "eng": "mango",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ang",
+      "theme": "food"
+    },
+    {
+      "ar": "ماندرين",
+      "latn": "mandarine",
+      "eng": "mandarin orange",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ene",
+      "theme": "food"
+    },
+    {
+      "ar": "تمر",
+      "latn": "tmr",
+      "eng": "dates",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "emr",
+      "theme": "food"
+    },
+    {
+      "ar": "برقوق",
+      "latn": "br9o9",
+      "eng": "plums",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "o9",
+      "theme": "food"
+    },
+    {
+      "ar": "ماكلة",
+      "latn": "makla",
+      "eng": "food",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "food"
+    },
+    {
+      "ar": "عدس",
+      "latn": "3ds",
+      "eng": "lenses",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eds",
+      "theme": "food"
+    },
+    {
+      "ar": "نبڭ",
+      "latn": "nbg",
+      "eng": "jujube",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ebg",
+      "theme": "food"
+    },
+    {
+      "ar": "بلّوط",
+      "latn": "blloT",
+      "eng": "oak",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ot",
+      "theme": "food"
+    },
+    {
+      "ar": "اللوز",
+      "latn": "llouz",
+      "eng": "almonds",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "uz",
+      "theme": "food"
+    },
+    {
+      "ar": "نعناع",
+      "latn": "n3na3",
+      "eng": "mint",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "a3",
+      "theme": "food"
+    },
+    {
+      "ar": "زبيب",
+      "latn": "zbib",
+      "eng": "raisins",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ib",
+      "theme": "food"
+    },
+    {
+      "ar": "بيض",
+      "latn": "biD",
+      "eng": "eggs",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "id",
+      "theme": "food"
+    },
+    {
+      "ar": "بيضة",
+      "latn": "biDa",
+      "eng": "egg",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "food"
+    },
+    {
+      "ar": "زبدة",
+      "latn": "zbda",
+      "eng": "butter",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "food"
+    },
+    {
+      "ar": "خبز",
+      "latn": "khbz",
+      "eng": "bread",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ebz",
+      "theme": "food"
+    },
+    {
+      "ar": "مسكة",
+      "latn": "mska",
+      "eng": "chewing gum",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ka",
+      "theme": "food"
+    },
+    {
+      "ar": "سكّر",
+      "latn": "skkar",
+      "eng": "sugar",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ar",
+      "theme": "food"
+    },
+    {
+      "ar": "ملحة",
+      "latn": "ml7a",
+      "eng": "salt",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "7a",
+      "theme": "food"
+    },
+    {
+      "ar": "زيت",
+      "latn": "zit",
+      "eng": "oil",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "it",
+      "theme": "food"
+    },
+    {
+      "ar": "حمّص",
+      "latn": "7mmS",
+      "eng": "chickpeas",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ems",
+      "theme": "food"
+    },
+    {
+      "ar": "حريرة",
+      "latn": "7rira",
+      "eng": "soup",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ra",
+      "theme": "food"
+    },
+    {
+      "ar": "شلاضة",
+      "latn": "chlaDa",
+      "eng": "salad",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "food"
+    },
+    {
+      "ar": "لحم",
+      "latn": "l7m",
+      "eng": "meat",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "e7m",
+      "theme": "food"
+    },
+    {
+      "ar": "خميرة",
+      "latn": "khmira",
+      "eng": "yeast",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ra",
+      "theme": "food"
+    },
+    {
+      "ar": "عجينة",
+      "latn": "3jina",
+      "eng": "dough",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "na",
+      "theme": "food"
+    },
+    {
+      "ar": "فرماج",
+      "latn": "frmaj",
+      "eng": "cheese",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "aj",
+      "theme": "food"
+    },
+    {
+      "ar": "شعرية",
+      "latn": "ch3ria",
+      "eng": "pasta",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ia",
+      "theme": "food"
+    },
+    {
+      "ar": "ديسير",
+      "latn": "disir",
+      "eng": "desserts",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ir",
+      "theme": "food"
+    },
+    {
+      "ar": "لاڭلاس",
+      "latn": "laglas",
+      "eng": "ice cream",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "as",
+      "theme": "food"
+    },
+    {
+      "ar": "كيكا",
+      "latn": "kika",
+      "eng": "cake",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ka",
+      "theme": "food"
+    },
+    {
+      "ar": "عطرية",
+      "latn": "3Tria",
+      "eng": "spices",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ia",
+      "theme": "food"
+    },
+    {
+      "ar": "ڭمح",
+      "latn": "gm7",
+      "eng": "wheat",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "em7",
+      "theme": "food"
+    },
+    {
+      "ar": "دڭيڭ",
+      "latn": "dgig",
+      "eng": "flour",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ig",
+      "theme": "food"
+    },
+    {
+      "ar": "شعير",
+      "latn": "ch3ir",
+      "eng": "barley",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ir",
+      "theme": "food"
+    },
+    {
+      "ar": "قرفة",
+      "latn": "9rfa",
+      "eng": "cinnamon",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "fa",
+      "theme": "food"
+    },
+    {
+      "ar": "كمّون",
+      "latn": "kmmon",
+      "eng": "cumin",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "on",
+      "theme": "food"
+    },
+    {
+      "ar": "قرونفل",
+      "latn": "9ronfl",
+      "eng": "cloves",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "onfl",
+      "theme": "food"
+    },
+    {
+      "ar": "زعفران",
+      "latn": "z3fran",
+      "eng": "saffron",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "an",
+      "theme": "food"
+    },
+    {
+      "ar": "زعتر",
+      "latn": "z3tr",
+      "eng": "thyme",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "etr",
+      "theme": "food"
+    },
+    {
+      "ar": "شراب",
+      "latn": "chrab",
+      "eng": "drink",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ab",
+      "theme": "food"
+    },
+    {
+      "ar": "الشراب",
+      "latn": "chchrab",
+      "eng": "alcohol",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ab",
+      "theme": "food"
+    },
+    {
+      "ar": "بيرّة",
+      "latn": "birra",
+      "eng": "beer",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ra",
+      "theme": "food"
+    },
+    {
+      "ar": "أتاي",
+      "latn": "atay",
+      "eng": "tea",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ay",
+      "theme": "food"
+    },
+    {
+      "ar": "حليب",
+      "latn": "7lib",
+      "eng": "milk",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ib",
+      "theme": "food"
+    },
+    {
+      "ar": "عصير",
+      "latn": "3aSir",
+      "eng": "juice",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ir",
+      "theme": "food"
+    },
+    {
+      "ar": "فطور",
+      "latn": "fTor",
+      "eng": "breakfast",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "or",
+      "theme": "food"
+    },
+    {
+      "ar": "غدا",
+      "latn": "ghda",
+      "eng": "lunch",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "food"
+    },
+    {
+      "ar": "عشا",
+      "latn": "3cha",
+      "eng": "dinner",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ha",
+      "theme": "food"
+    },
+    {
+      "ar": "مقادير",
+      "latn": "ma9adir",
+      "eng": "ingredients",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ir",
+      "theme": "food"
+    },
+    {
+      "ar": "جوع",
+      "latn": "jo3",
+      "eng": "hunger",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "o3",
+      "theme": "food"
+    },
+    {
+      "ar": "عطش",
+      "latn": "3Tch",
+      "eng": "thirst",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "esh",
+      "theme": "food"
+    },
+    {
+      "ar": "ريجيم",
+      "latn": "rijim",
+      "eng": "diet",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "im",
+      "theme": "food"
+    },
+    {
+      "ar": "شهية",
+      "latn": "cha8ia",
+      "eng": "appetite",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ia",
+      "theme": "food"
+    },
+    {
+      "ar": "مشوي",
+      "latn": "mchwi",
+      "eng": "grilled",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "wi",
+      "theme": "food"
+    },
+    {
+      "ar": "مقلي",
+      "latn": "m9li",
+      "eng": "fried",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "li",
+      "theme": "food"
+    },
+    {
+      "ar": "محمّر",
+      "latn": "m7mmr",
+      "eng": "roasted",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "emr",
+      "theme": "food"
+    },
+    {
+      "ar": "مڭرمل",
+      "latn": "mgrml",
+      "eng": "crunchy",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eml",
+      "theme": "food"
+    },
+    {
+      "ar": "خضر",
+      "latn": "khDr",
+      "eng": "raw",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "edr",
+      "theme": "food"
+    },
+    {
+      "ar": "بنين",
+      "latn": "bnin",
+      "eng": "delicious",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "in",
+      "theme": "food"
+    },
+    {
+      "ar": "ناشف",
+      "latn": "nachf",
+      "eng": "dry",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ashf",
+      "theme": "food"
+    },
+    {
+      "ar": "حلو",
+      "latn": "7lo",
+      "eng": "sweet",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "elo",
+      "theme": "food"
+    },
+    {
+      "ar": "حارّ",
+      "latn": "7arr",
+      "eng": "spicy",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "arr",
+      "theme": "food"
+    },
+    {
+      "ar": "مرّ",
+      "latn": "marr",
+      "eng": "bitter",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "arr",
+      "theme": "food"
+    },
+    {
+      "ar": "محروڭ",
+      "latn": "m7roug",
+      "eng": "burned",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ug",
+      "theme": "food"
+    },
+    {
+      "ar": "لخلّ",
+      "latn": "lkhell",
+      "eng": "vinegar",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ell",
+      "theme": "food"
+    },
+    {
+      "ar": "بطاطا فريت",
+      "latn": "bTaTa frit",
+      "eng": "french fries",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "it",
+      "theme": "food"
+    },
+    {
+      "ar": "سقّاطة",
+      "latn": "s99aTa",
+      "eng": "candy",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "theme": "food"
+    },
+    {
+      "ar": "مداق",
+      "latn": "mada9",
+      "eng": "flavor",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "a9",
+      "theme": "food"
+    },
+    {
+      "ar": "طاجين",
+      "latn": "Tajin",
+      "eng": "Tagine",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "in",
+      "theme": "food"
+    },
+    {
+      "ar": "طنجية",
+      "latn": "Tanjia",
+      "eng": "Tanjia",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ia",
+      "theme": "food"
+    },
+    {
+      "ar": "بسطيلة",
+      "latn": "bsTila",
+      "eng": "bastila",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "food"
+    },
+    {
+      "ar": "محنّشة",
+      "latn": "m7nncha",
+      "eng": "mhancha",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ha",
+      "theme": "food"
+    },
+    {
+      "ar": "فقّاس",
+      "latn": "f99as",
+      "eng": "faqqas",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "as",
+      "theme": "food"
+    },
+    {
+      "ar": "كعب غزال",
+      "latn": "k3bghzal",
+      "eng": "kaab ghzal",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "al",
+      "theme": "food"
+    },
+    {
+      "ar": "سلّو",
+      "latn": "sellou",
+      "eng": "sellou",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "lu",
+      "theme": "food"
+    },
+    {
+      "ar": "بريوات",
+      "latn": "briwat",
+      "eng": "briwat",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "food"
+    },
+    {
+      "ar": "شبّاكية",
+      "latn": "chbbakia",
+      "eng": "chebbakia",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ia",
+      "theme": "food"
+    },
+    {
+      "ar": "غريبة",
+      "latn": "ghriba",
+      "eng": "ghriba",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ba",
+      "theme": "food"
+    },
+    {
+      "ar": "قريشلات",
+      "latn": "9richlat",
+      "eng": "qrichlat",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "food"
+    },
+    {
+      "ar": "رزّة لقاضي",
+      "latn": "rzzt l9aDi",
+      "eng": "razzat el cadi",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "di",
+      "theme": "food"
+    },
+    {
+      "ar": "زرودية",
+      "latn": "zrodya",
+      "eng": "carrot",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ya",
+      "theme": "food"
+    }
+  ],
+  "clothes": [
+    {
+      "ar": "حوايج",
+      "latn": "7wayj",
+      "eng": "clothes",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ayj",
+      "theme": "clothes"
+    },
+    {
+      "ar": "خاتم",
+      "latn": "khatm",
+      "eng": "ring",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "atm",
+      "theme": "clothes"
+    },
+    {
+      "ar": "قميجة",
+      "latn": "9amija",
+      "eng": "shirt",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ja",
+      "theme": "clothes"
+    },
+    {
+      "ar": "سروال",
+      "latn": "srwal",
+      "eng": "pants",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "al",
+      "theme": "clothes"
+    },
+    {
+      "ar": "كسكيطة",
+      "latn": "kaskita",
+      "eng": "cap",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "theme": "clothes"
+    },
+    {
+      "ar": "سبّاط",
+      "latn": "sbbat",
+      "eng": "shoe",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "clothes"
+    },
+    {
+      "ar": "تقاشر",
+      "latn": "t9achr",
+      "eng": "socks",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ashr",
+      "theme": "clothes"
+    },
+    {
+      "ar": "شورط",
+      "latn": "chort",
+      "eng": "shorts",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ort",
+      "theme": "clothes"
+    },
+    {
+      "ar": "كبّوط",
+      "latn": "kbbot",
+      "eng": "coat",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ot",
+      "theme": "clothes"
+    },
+    {
+      "ar": "ڭرافاطة",
+      "latn": "grafaTa",
+      "eng": "tie",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "theme": "clothes"
+    },
+    {
+      "ar": "طربوش",
+      "latn": "Trbouch",
+      "eng": "hat",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ush",
+      "theme": "clothes"
+    },
+    {
+      "ar": "تجاكيطة",
+      "latn": "tjakiTa",
+      "eng": "jacket",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "theme": "clothes"
+    },
+    {
+      "ar": "صايا",
+      "latn": "Saya",
+      "eng": "skirt",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ya",
+      "theme": "clothes"
+    },
+    {
+      "ar": "سليپ",
+      "latn": "slip",
+      "eng": "underpants",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ip",
+      "theme": "clothes"
+    },
+    {
+      "ar": "شال",
+      "latn": "chal",
+      "eng": "scarf",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "al",
+      "theme": "clothes"
+    },
+    {
+      "ar": "دجين",
+      "latn": "djin",
+      "eng": "jeans",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "in",
+      "theme": "clothes"
+    },
+    {
+      "ar": "كسوة",
+      "latn": "kswa",
+      "eng": "dress",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "wa",
+      "theme": "clothes"
+    },
+    {
+      "ar": "كوستيم",
+      "latn": "kostim",
+      "eng": "suit",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "im",
+      "theme": "clothes"
+    },
+    {
+      "ar": "پيجامة",
+      "latn": "pijama",
+      "eng": "pajamas",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "theme": "clothes"
+    },
+    {
+      "ar": "ليكوش",
+      "latn": "likouch",
+      "eng": "diapers",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ush",
+      "theme": "clothes"
+    },
+    {
+      "ar": "ليڭات",
+      "latn": "ligat",
+      "eng": "gloves",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "clothes"
+    },
+    {
+      "ar": "سمطة",
+      "latn": "smTa",
+      "eng": "belt",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "theme": "clothes"
+    },
+    {
+      "ar": "صضفة",
+      "latn": "SDfa",
+      "eng": "button",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "fa",
+      "theme": "clothes"
+    },
+    {
+      "ar": "جيب",
+      "latn": "jib",
+      "eng": "pocket",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ib",
+      "theme": "clothes"
+    },
+    {
+      "ar": "طوانڭ",
+      "latn": "Twang",
+      "eng": "earring",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ang",
+      "theme": "clothes"
+    },
+    {
+      "ar": "سنسلة",
+      "latn": "snsla",
+      "eng": "necklace",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "clothes"
+    },
+    {
+      "ar": "ڭورميط",
+      "latn": "gormiT",
+      "eng": "bracelet",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "it",
+      "theme": "clothes"
+    },
+    {
+      "ar": "بسطام",
+      "latn": "bsTam",
+      "eng": "wallet",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "am",
+      "theme": "clothes"
+    },
+    {
+      "ar": "مضلّ",
+      "latn": "mDll",
+      "eng": "umbrella",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ell",
+      "theme": "clothes"
+    },
+    {
+      "ar": "طاڭية",
+      "latn": "Tagia",
+      "eng": "skullcap",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ia",
+      "theme": "clothes"
+    },
+    {
+      "ar": "توني",
+      "latn": "touni",
+      "eng": "football shirt",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ni",
+      "theme": "clothes"
+    },
+    {
+      "ar": "جلّابة",
+      "latn": "jellaba",
+      "eng": "jellaba",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ba",
+      "theme": "clothes"
+    },
+    {
+      "ar": "بلغة",
+      "latn": "blgha",
+      "eng": "blgha",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ha",
+      "theme": "clothes"
+    },
+    {
+      "ar": "درّاعية",
+      "latn": "drra3ia",
+      "eng": "drraia",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ia",
+      "theme": "clothes"
+    },
+    {
+      "ar": "جابادور",
+      "latn": "jabador",
+      "eng": "jabador",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "or",
+      "theme": "clothes"
+    },
+    {
+      "ar": "قفطان",
+      "latn": "9fTan",
+      "eng": "qafTan",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "an",
+      "theme": "clothes"
+    },
+    {
+      "ar": "تكشيطة",
+      "latn": "tkchiTa",
+      "eng": "takchiTa",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "theme": "clothes"
+    },
+    {
+      "ar": "سلهام",
+      "latn": "sl8am",
+      "eng": "cape",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "am",
+      "theme": "clothes"
+    }
+  ],
+  "animals": [
+    {
+      "ar": "كلب",
+      "latn": "klb",
+      "eng": "dog",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": true,
+      "rhymeKey": "elb",
+      "theme": "animals"
+    },
+    {
+      "ar": "مش",
+      "latn": "mch",
+      "eng": "cat",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "esh",
+      "theme": "animals"
+    },
+    {
+      "ar": "حمار",
+      "latn": "7mar",
+      "eng": "donkey",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ar",
+      "theme": "animals"
+    },
+    {
+      "ar": "زرافة",
+      "latn": "zarafa",
+      "eng": "giraffe",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "fa",
+      "theme": "animals"
+    },
+    {
+      "ar": "سبع",
+      "latn": "sb3",
+      "eng": "lion",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eb3",
+      "theme": "animals"
+    },
+    {
+      "ar": "دجاجة",
+      "latn": "djaja",
+      "eng": "chicken",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ja",
+      "theme": "animals"
+    },
+    {
+      "ar": "فروج",
+      "latn": "frouj",
+      "eng": "cock",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "uj",
+      "theme": "animals"
+    },
+    {
+      "ar": "غزالة",
+      "latn": "ghzala",
+      "eng": "gazelle",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "animals"
+    },
+    {
+      "ar": "نمر",
+      "latn": "nmr",
+      "eng": "tiger",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "emr",
+      "theme": "animals"
+    },
+    {
+      "ar": "ضبع",
+      "latn": "Db3",
+      "eng": "hyena",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eb3",
+      "theme": "animals"
+    },
+    {
+      "ar": "حوت",
+      "latn": "7out",
+      "eng": "fish",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ut",
+      "theme": "animals"
+    },
+    {
+      "ar": "نملة",
+      "latn": "nmla",
+      "eng": "ant",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "animals"
+    },
+    {
+      "ar": "فكرون",
+      "latn": "fkroun",
+      "eng": "turtle",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "un",
+      "theme": "animals"
+    },
+    {
+      "ar": "بربوش",
+      "latn": "brbouch",
+      "eng": "snail",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ush",
+      "theme": "animals"
+    },
+    {
+      "ar": "بغل",
+      "latn": "bghl",
+      "eng": "mule",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ehl",
+      "theme": "animals"
+    },
+    {
+      "ar": "عاود",
+      "latn": "3awd",
+      "eng": "horse",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "awd",
+      "theme": "animals"
+    },
+    {
+      "ar": "خروف",
+      "latn": "khrouf",
+      "eng": "sheep",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "uf",
+      "theme": "animals"
+    },
+    {
+      "ar": "حاولي",
+      "latn": "7awli",
+      "eng": "sheep",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "li",
+      "theme": "animals"
+    },
+    {
+      "ar": "نعجة",
+      "latn": "n3ja",
+      "eng": "sheep",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ja",
+      "theme": "animals"
+    },
+    {
+      "ar": "معزة",
+      "latn": "m3za",
+      "eng": "goat",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "za",
+      "theme": "animals"
+    },
+    {
+      "ar": "تمساح",
+      "latn": "timsa7",
+      "eng": "crocodile",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "a7",
+      "theme": "animals"
+    },
+    {
+      "ar": "فيل",
+      "latn": "fil",
+      "eng": "elephant",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "il",
+      "theme": "animals"
+    },
+    {
+      "ar": "عجل",
+      "latn": "3jl",
+      "eng": "calf",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ejl",
+      "theme": "animals"
+    },
+    {
+      "ar": "ديب",
+      "latn": "dib",
+      "eng": "wolf",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ib",
+      "theme": "animals"
+    },
+    {
+      "ar": "حلّوف",
+      "latn": "7llouf",
+      "eng": "pig",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "uf",
+      "theme": "animals"
+    },
+    {
+      "ar": "قرد",
+      "latn": "9rd",
+      "eng": "monkey",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "erd",
+      "theme": "animals"
+    },
+    {
+      "ar": "طوبّا",
+      "latn": "Tobba",
+      "eng": "rat",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ba",
+      "theme": "animals"
+    },
+    {
+      "ar": "جمل",
+      "latn": "jml",
+      "eng": "camel",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eml",
+      "theme": "animals"
+    },
+    {
+      "ar": "دلفين",
+      "latn": "dlfin",
+      "eng": "dolphin",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "in",
+      "theme": "animals"
+    },
+    {
+      "ar": "موكا",
+      "latn": "moka",
+      "eng": "owl",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ka",
+      "theme": "animals"
+    },
+    {
+      "ar": "تعلب",
+      "latn": "t3lb",
+      "eng": "fox",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "elb",
+      "theme": "animals"
+    },
+    {
+      "ar": "بڭرة",
+      "latn": "bgra",
+      "eng": "cow",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ra",
+      "theme": "animals"
+    },
+    {
+      "ar": "دبّ",
+      "latn": "dobb",
+      "eng": "bear",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "obb",
+      "theme": "animals"
+    },
+    {
+      "ar": "قنيونة",
+      "latn": "9niwna",
+      "eng": "rabbit",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "na",
+      "theme": "animals"
+    },
+    {
+      "ar": "طويير",
+      "latn": "Twiyer",
+      "eng": "bird",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ier",
+      "theme": "animals"
+    },
+    {
+      "ar": "تيقليت",
+      "latn": "ti9lit",
+      "eng": "lizard",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "it",
+      "theme": "animals"
+    },
+    {
+      "ar": "ببغاء",
+      "latn": "babbagha",
+      "eng": "parrot",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ha",
+      "theme": "animals"
+    },
+    {
+      "ar": "فار",
+      "latn": "far",
+      "eng": "mouse",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ar",
+      "theme": "animals"
+    },
+    {
+      "ar": "بطّة",
+      "latn": "bTTa",
+      "eng": "duck",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "theme": "animals"
+    },
+    {
+      "ar": "كروڤيت",
+      "latn": "crevit",
+      "eng": "shrimps",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "it",
+      "theme": "animals"
+    },
+    {
+      "ar": "بيبي",
+      "latn": "bibi",
+      "eng": "turkey",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "bi",
+      "theme": "animals"
+    },
+    {
+      "ar": "نحلة",
+      "latn": "n7la",
+      "eng": "bee",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "animals"
+    },
+    {
+      "ar": "غراب",
+      "latn": "ghrab",
+      "eng": "crow",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ab",
+      "theme": "animals"
+    },
+    {
+      "ar": "حمامة",
+      "latn": "7mama",
+      "eng": "pigeon",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "theme": "animals"
+    },
+    {
+      "ar": "بلّارج",
+      "latn": "bllarj",
+      "eng": "stork",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "arj",
+      "theme": "animals"
+    },
+    {
+      "ar": "نعامة",
+      "latn": "n3ama",
+      "eng": "ostrich",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "theme": "animals"
+    },
+    {
+      "ar": "ڭنفود",
+      "latn": "gnfoud",
+      "eng": "hedgehog",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ud",
+      "theme": "animals"
+    },
+    {
+      "ar": "خفّاش",
+      "latn": "khffach",
+      "eng": "bat",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ash",
+      "theme": "animals"
+    },
+    {
+      "ar": "جرانة",
+      "latn": "jrana",
+      "eng": "frog",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "na",
+      "theme": "animals"
+    },
+    {
+      "ar": "سنجاب",
+      "latn": "sinjab",
+      "eng": "squirrel",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ab",
+      "theme": "animals"
+    },
+    {
+      "ar": "حنش",
+      "latn": "7nch",
+      "eng": "snake",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "esh",
+      "theme": "animals"
+    },
+    {
+      "ar": "أُخطبوط",
+      "latn": "okhToboT",
+      "eng": "octopus",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ot",
+      "theme": "animals"
+    },
+    {
+      "ar": "قرش",
+      "latn": "9irch",
+      "eng": "shark",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "irsh",
+      "theme": "animals"
+    },
+    {
+      "ar": "نسر",
+      "latn": "nsr",
+      "eng": "eagle",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "esr",
+      "theme": "animals"
+    },
+    {
+      "ar": "بطريق",
+      "latn": "biTri9",
+      "eng": "penguin",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "i9",
+      "theme": "animals"
+    },
+    {
+      "ar": "فراشة",
+      "latn": "faracha",
+      "eng": "butterfly",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ha",
+      "theme": "animals"
+    },
+    {
+      "ar": "رتيلة",
+      "latn": "rtila",
+      "eng": "spider",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "animals"
+    },
+    {
+      "ar": "عڭربة",
+      "latn": "3grba",
+      "eng": "scorpion",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ba",
+      "theme": "animals"
+    },
+    {
+      "ar": "ناموسة",
+      "latn": "namousa",
+      "eng": "mosquito",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "sa",
+      "theme": "animals"
+    },
+    {
+      "ar": "دبّانة",
+      "latn": "dbbana",
+      "eng": "fly",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "na",
+      "theme": "animals"
+    },
+    {
+      "ar": "دبّان",
+      "latn": "dbban",
+      "eng": "flies",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "an",
+      "theme": "animals"
+    },
+    {
+      "ar": "جرادة",
+      "latn": "jrada",
+      "eng": "grasshopper",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "animals"
+    },
+    {
+      "ar": "جراد",
+      "latn": "jrad",
+      "eng": "grasshoppers",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ad",
+      "theme": "animals"
+    },
+    {
+      "ar": "دودة",
+      "latn": "douda",
+      "eng": "worm",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "animals"
+    },
+    {
+      "ar": "دود",
+      "latn": "doud",
+      "eng": "worms",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ud",
+      "theme": "animals"
+    },
+    {
+      "ar": "حيوان",
+      "latn": "7ayawan",
+      "eng": "animal",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "an",
+      "theme": "animals"
+    },
+    {
+      "ar": "حشرة",
+      "latn": "7achara",
+      "eng": "insect",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ra",
+      "theme": "animals"
+    },
+    {
+      "ar": "حشرات",
+      "latn": "7acharat",
+      "eng": "insects",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "animals"
+    },
+    {
+      "ar": "حيوانات",
+      "latn": "7ayawanat",
+      "eng": "animals",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "animals"
+    },
+    {
+      "ar": "عصفور",
+      "latn": "3oSfor",
+      "eng": "bird",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "or",
+      "theme": "animals"
+    },
+    {
+      "ar": "تور",
+      "latn": "tour",
+      "eng": "bull",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ur",
+      "theme": "animals"
+    },
+    {
+      "ar": "سمكة",
+      "latn": "samaka",
+      "eng": "fish",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ka",
+      "theme": "animals"
+    },
+    {
+      "ar": "دايناصور",
+      "latn": "daynaSour",
+      "eng": "dinosaur",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ur",
+      "theme": "animals"
+    },
+    {
+      "ar": "بوبريص",
+      "latn": "bobris",
+      "eng": "lizard",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "is",
+      "theme": "animals"
+    },
+    {
+      "ar": "قندس",
+      "latn": "9ondos",
+      "eng": "beaver",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "os",
+      "theme": "animals"
+    },
+    {
+      "ar": "بهيمة",
+      "latn": "b8ima",
+      "eng": "cattle",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "theme": "animals"
+    },
+    {
+      "ar": "وزّة",
+      "latn": "wzza",
+      "eng": "goose",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "za",
+      "theme": "animals"
+    },
+    {
+      "ar": "طاوس",
+      "latn": "Taws",
+      "eng": "peafowl",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "aws",
+      "theme": "animals"
+    },
+    {
+      "ar": "سردين",
+      "latn": "srdin",
+      "eng": "sardine",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "in",
+      "theme": "animals"
+    },
+    {
+      "ar": "سمطة",
+      "latn": "smTa",
+      "eng": "eel",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "theme": "animals"
+    },
+    {
+      "ar": "فقمة",
+      "latn": "fo9ma",
+      "eng": "seal",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "theme": "animals"
+    },
+    {
+      "ar": "سرّاق زّيت",
+      "latn": "srra9zzit",
+      "eng": "cockroach",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "it",
+      "theme": "animals"
+    },
+    {
+      "ar": "بوجعران",
+      "latn": "boj3ran",
+      "eng": "cockroach",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "an",
+      "theme": "animals"
+    },
+    {
+      "ar": "ڭمل",
+      "latn": "gml",
+      "eng": "louses",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eml",
+      "theme": "animals"
+    },
+    {
+      "ar": "منقار",
+      "latn": "mn9ar",
+      "eng": "beak",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ar",
+      "theme": "animals"
+    },
+    {
+      "ar": "جناح",
+      "latn": "jna7",
+      "eng": "wing",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "a7",
+      "theme": "animals"
+    },
+    {
+      "ar": "ريشة",
+      "latn": "richa",
+      "eng": "feather",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ha",
+      "theme": "animals"
+    },
+    {
+      "ar": "غول",
+      "latn": "ghoul",
+      "eng": "beast",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ul",
+      "theme": "animals"
+    },
+    {
+      "ar": "فرس النهر",
+      "latn": "faras nna8r",
+      "eng": "hippopotamus",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "a8r",
+      "theme": "animals"
+    },
+    {
+      "ar": "وحيد لقرن",
+      "latn": "wa7id l9arn",
+      "eng": "rhinoceros",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "arn",
+      "theme": "animals"
+    },
+    {
+      "ar": "حمار وحشي",
+      "latn": "7imar wa7chi",
+      "eng": "zebra",
+      "syllables": 4,
+      "frequency": 60,
+      "sensitive": false,
+      "rhymeKey": "hi",
+      "theme": "animals"
+    },
+    {
+      "ar": "فهد",
+      "latn": "fa8d",
+      "eng": "leopard",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "a8d",
+      "theme": "animals"
+    },
+    {
+      "ar": "فرّوج",
+      "latn": "ferrouj",
+      "eng": "cock",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "uj",
+      "theme": "animals"
+    },
+    {
+      "ar": "هدهد",
+      "latn": "8od8od",
+      "eng": "hoopoe",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "od",
+      "theme": "animals"
+    },
+    {
+      "ar": "هامستر",
+      "latn": "hamster",
+      "eng": "hamster",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "er",
+      "theme": "animals"
+    },
+    {
+      "ar": "پاندا",
+      "latn": "panda",
+      "eng": "panda",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "animals"
+    },
+    {
+      "ar": "اللاما",
+      "latn": "llama",
+      "eng": "llama",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "theme": "animals"
+    },
+    {
+      "ar": "كوالا",
+      "latn": "koala",
+      "eng": "koala",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "animals"
+    }
+  ],
+  "body": [
+    {
+      "ar": "إنسان",
+      "latn": "insan",
+      "eng": "human",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "an",
+      "theme": "body"
+    },
+    {
+      "ar": "بنادم",
+      "latn": "bnadm",
+      "eng": "human",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "adm",
+      "theme": "body"
+    },
+    {
+      "ar": "رجل",
+      "latn": "rjl",
+      "eng": "foot",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ejl",
+      "theme": "body"
+    },
+    {
+      "ar": "يدّ",
+      "latn": "yedd",
+      "eng": "hand",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "edd",
+      "theme": "body"
+    },
+    {
+      "ar": "عين",
+      "latn": "3in",
+      "eng": "eye",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "in",
+      "theme": "body"
+    },
+    {
+      "ar": "نيف",
+      "latn": "nif",
+      "eng": "nose",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "if",
+      "theme": "body"
+    },
+    {
+      "ar": "مناخر",
+      "latn": "mnakher",
+      "eng": "nose",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "er",
+      "theme": "body"
+    },
+    {
+      "ar": "فم",
+      "latn": "fom",
+      "eng": "mouth",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "om",
+      "theme": "body"
+    },
+    {
+      "ar": "دماغ",
+      "latn": "dmagh",
+      "eng": "brain",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "agh",
+      "theme": "body"
+    },
+    {
+      "ar": "كبدة",
+      "latn": "kbda",
+      "eng": "liver",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "body"
+    },
+    {
+      "ar": "رية",
+      "latn": "riyya",
+      "eng": "lung",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ya",
+      "theme": "body"
+    },
+    {
+      "ar": "كلوة",
+      "latn": "klwa",
+      "eng": "kidney",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "wa",
+      "theme": "body"
+    },
+    {
+      "ar": "معدة",
+      "latn": "m3da",
+      "eng": "stomach",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "body"
+    },
+    {
+      "ar": "عضم",
+      "latn": "3Dm",
+      "eng": "bone",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "edm",
+      "theme": "body"
+    },
+    {
+      "ar": "مصارن",
+      "latn": "mSarn",
+      "eng": "intestine",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "arn",
+      "theme": "body"
+    },
+    {
+      "ar": "قلب",
+      "latn": "9lb",
+      "eng": "heart",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "elb",
+      "theme": "body"
+    },
+    {
+      "ar": "ودن",
+      "latn": "wdn",
+      "eng": "ear",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "edn",
+      "theme": "body"
+    },
+    {
+      "ar": "راس",
+      "latn": "ras",
+      "eng": "head",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "as",
+      "theme": "body"
+    },
+    {
+      "ar": "جسد",
+      "latn": "jasad",
+      "eng": "body",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad",
+      "theme": "body"
+    },
+    {
+      "ar": "عضو",
+      "latn": "3oDw",
+      "eng": "organ",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "odw",
+      "theme": "body"
+    },
+    {
+      "ar": "جلد",
+      "latn": "jld",
+      "eng": "skin",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eld",
+      "theme": "body"
+    },
+    {
+      "ar": "جمجمة",
+      "latn": "jmjoma",
+      "eng": "skull",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "theme": "body"
+    },
+    {
+      "ar": "شعر",
+      "latn": "ch3r",
+      "eng": "hair",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "e3r",
+      "theme": "body"
+    },
+    {
+      "ar": "موسطاش",
+      "latn": "mostach",
+      "eng": "mustache",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ash",
+      "theme": "body"
+    },
+    {
+      "ar": "لحية",
+      "latn": "l7ya",
+      "eng": "beard",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ya",
+      "theme": "body"
+    },
+    {
+      "ar": "وجه",
+      "latn": "wjh",
+      "eng": "face",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ejh",
+      "theme": "body"
+    },
+    {
+      "ar": "حاجب",
+      "latn": "7ajb",
+      "eng": "eyebrow",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ajb",
+      "theme": "body"
+    },
+    {
+      "ar": "شفار",
+      "latn": "chfar",
+      "eng": "eyelashes",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ar",
+      "theme": "body"
+    },
+    {
+      "ar": "دفال",
+      "latn": "dfal",
+      "eng": "saliva",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "al",
+      "theme": "body"
+    },
+    {
+      "ar": "شوارب",
+      "latn": "chwarb",
+      "eng": "lips",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "arb",
+      "theme": "body"
+    },
+    {
+      "ar": "لسان",
+      "latn": "lsan",
+      "eng": "tongue",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "an",
+      "theme": "body"
+    },
+    {
+      "ar": "سنّة",
+      "latn": "snna",
+      "eng": "tooth",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "na",
+      "theme": "body"
+    },
+    {
+      "ar": "عنق",
+      "latn": "3ng",
+      "eng": "neck",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eng",
+      "theme": "body"
+    },
+    {
+      "ar": "قرجوطة",
+      "latn": "9rjoTa",
+      "eng": "throat",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ta",
+      "theme": "body"
+    },
+    {
+      "ar": "كتف",
+      "latn": "ktf",
+      "eng": "shoulder",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "etf",
+      "theme": "body"
+    },
+    {
+      "ar": "صدر",
+      "latn": "Sdr",
+      "eng": "chest",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "edr",
+      "theme": "body"
+    },
+    {
+      "ar": "دراع",
+      "latn": "dra3",
+      "eng": "arm",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "a3",
+      "theme": "body"
+    },
+    {
+      "ar": "حنك",
+      "latn": "7nk",
+      "eng": "cheek",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "enk",
+      "theme": "body"
+    },
+    {
+      "ar": "جبهة",
+      "latn": "jb8a",
+      "eng": "forehead",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "8a",
+      "theme": "body"
+    },
+    {
+      "ar": "رموش",
+      "latn": "rmouch",
+      "eng": "eyelashes",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ush",
+      "theme": "body"
+    },
+    {
+      "ar": "حلاقم",
+      "latn": "7la9m",
+      "eng": "tonsils",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "a9m",
+      "theme": "body"
+    },
+    {
+      "ar": "باط",
+      "latn": "baT",
+      "eng": "armpit",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "body"
+    },
+    {
+      "ar": "مرفق",
+      "latn": "mrf9",
+      "eng": "elbow",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ef9",
+      "theme": "body"
+    },
+    {
+      "ar": "صبع",
+      "latn": "Sb3",
+      "eng": "finger",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eb3",
+      "theme": "body"
+    },
+    {
+      "ar": "ضفر",
+      "latn": "Dfr",
+      "eng": "fingernail",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "efr",
+      "theme": "body"
+    },
+    {
+      "ar": "كرش",
+      "latn": "krch",
+      "eng": "abdomen",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "esh",
+      "theme": "body"
+    },
+    {
+      "ar": "فخض",
+      "latn": "fkhD",
+      "eng": "thigh",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "exd",
+      "theme": "body"
+    },
+    {
+      "ar": "ركبة",
+      "latn": "rkba",
+      "eng": "knee",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ba",
+      "theme": "body"
+    },
+    {
+      "ar": "ڭدم",
+      "latn": "gdm",
+      "eng": "heel",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "edm",
+      "theme": "body"
+    },
+    {
+      "ar": "ضهر",
+      "latn": "D8r",
+      "eng": "back",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "e8r",
+      "theme": "body"
+    },
+    {
+      "ar": "ضلعة",
+      "latn": "Dl3a",
+      "eng": "rib",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "3a",
+      "theme": "body"
+    },
+    {
+      "ar": "دم",
+      "latn": "dm",
+      "eng": "blood",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "edm",
+      "theme": "body"
+    },
+    {
+      "ar": "عرق",
+      "latn": "3r9",
+      "eng": "vein",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "er9",
+      "theme": "body"
+    },
+    {
+      "ar": "عضلة",
+      "latn": "3aDala",
+      "eng": "muscle",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "la",
+      "theme": "body"
+    },
+    {
+      "ar": "عمود لفقري",
+      "latn": "3amoud lfi9ari",
+      "eng": "backbone",
+      "syllables": 5,
+      "frequency": 50,
+      "sensitive": false,
+      "rhymeKey": "ri",
+      "theme": "body"
+    },
+    {
+      "ar": "الشوف",
+      "latn": "chchouf",
+      "eng": "sight",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "uf",
+      "theme": "body"
+    },
+    {
+      "ar": "السمع",
+      "latn": "ssm3",
+      "eng": "hearing",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "em3",
+      "theme": "body"
+    },
+    {
+      "ar": "الشمّ",
+      "latn": "chchmm",
+      "eng": "smell",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "emm",
+      "theme": "body"
+    },
+    {
+      "ar": "الدوق",
+      "latn": "ddou9",
+      "eng": "taste",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "u9",
+      "theme": "body"
+    },
+    {
+      "ar": "اللمس",
+      "latn": "llms",
+      "eng": "touch",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ems",
+      "theme": "body"
+    },
+    {
+      "ar": "تنفّس",
+      "latn": "tanffous",
+      "eng": "breathing",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "us",
+      "theme": "body"
+    },
+    {
+      "ar": "تڭرّع",
+      "latn": "tgrr3",
+      "eng": "to burp",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "er3",
+      "theme": "body"
+    },
+    {
+      "ar": "تفوّه",
+      "latn": "tfww8",
+      "eng": "to yawn",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ew8",
+      "theme": "body"
+    },
+    {
+      "ar": "شخر",
+      "latn": "chkhr",
+      "eng": "to snore",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "exr",
+      "theme": "body"
+    },
+    {
+      "ar": "حسانة",
+      "latn": "7sana",
+      "eng": "haircut",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "na",
+      "theme": "body"
+    },
+    {
+      "ar": "حسّن",
+      "latn": "7ssn",
+      "eng": "to shave",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "esn",
+      "theme": "body"
+    },
+    {
+      "ar": "مشط",
+      "latn": "mchT",
+      "eng": "to comb",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "eht",
+      "theme": "body"
+    },
+    {
+      "ar": "وشم",
+      "latn": "wchm",
+      "eng": "tattoo",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ehm",
+      "theme": "body"
+    },
+    {
+      "ar": "خال",
+      "latn": "khal",
+      "eng": "mole",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "al",
+      "theme": "body"
+    }
+  ],
+  "emotions": [
+    {
+      "ar": "قلق",
+      "latn": "9ala9",
+      "eng": "worry",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "a9",
+      "theme": "emotions"
+    },
+    {
+      "ar": "تبرزيط",
+      "latn": "tbrziT",
+      "eng": "annoyance",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "it",
+      "theme": "emotions"
+    },
+    {
+      "ar": "غضب",
+      "latn": "ghaDab",
+      "eng": "anger",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ab",
+      "theme": "emotions"
+    },
+    {
+      "ar": "نشاط",
+      "latn": "nachaT",
+      "eng": "amusement",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "emotions"
+    },
+    {
+      "ar": "قبول",
+      "latn": "9oboul",
+      "eng": "acceptance",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ul",
+      "theme": "emotions"
+    },
+    {
+      "ar": "شجاعة",
+      "latn": "chaja3a",
+      "eng": "courage",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "3a",
+      "theme": "emotions"
+    },
+    {
+      "ar": "تقة",
+      "latn": "ti9a",
+      "eng": "confidence",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "9a",
+      "theme": "emotions"
+    },
+    {
+      "ar": "ملل",
+      "latn": "malal",
+      "eng": "boredom",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "al",
+      "theme": "emotions"
+    },
+    {
+      "ar": "لامبالاة",
+      "latn": "lamobalat",
+      "eng": "apathy",
+      "syllables": 4,
+      "frequency": 60,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "emotions"
+    },
+    {
+      "ar": "فضول",
+      "latn": "fDoul",
+      "eng": "curiosity",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ul",
+      "theme": "emotions"
+    },
+    {
+      "ar": "كآبة",
+      "latn": "ka2aaba",
+      "eng": "depression",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ba",
+      "theme": "emotions"
+    },
+    {
+      "ar": "رغبة",
+      "latn": "rghba",
+      "eng": "desire",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ba",
+      "theme": "emotions"
+    },
+    {
+      "ar": "تايعيف",
+      "latn": "tay3yef",
+      "eng": "disgusting",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ef",
+      "theme": "emotions"
+    },
+    {
+      "ar": "شك",
+      "latn": "chek",
+      "eng": "doubt",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ek",
+      "theme": "emotions"
+    },
+    {
+      "ar": "نشوة",
+      "latn": "nchwa",
+      "eng": "ecstasy",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "wa",
+      "theme": "emotions"
+    },
+    {
+      "ar": "إحراج",
+      "latn": "i7raj",
+      "eng": "embarrassment",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "aj",
+      "theme": "emotions"
+    },
+    {
+      "ar": "لمريڭ",
+      "latn": "lmrig",
+      "eng": "embarrassment",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ig",
+      "theme": "emotions"
+    },
+    {
+      "ar": "إيمان",
+      "latn": "2ymane",
+      "eng": "faith",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ene",
+      "theme": "emotions"
+    },
+    {
+      "ar": "خوف",
+      "latn": "khouf",
+      "eng": "fear",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "uf",
+      "theme": "emotions"
+    },
+    {
+      "ar": "إحباط",
+      "latn": "i7baaT",
+      "eng": "frustration",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "emotions"
+    },
+    {
+      "ar": "تعاطف",
+      "latn": "ta3aTof",
+      "eng": "empathy",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "of",
+      "theme": "emotions"
+    },
+    {
+      "ar": "شكر",
+      "latn": "chokr",
+      "eng": "gratitude",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "okr",
+      "theme": "emotions"
+    },
+    {
+      "ar": "طمع",
+      "latn": "Tm3",
+      "eng": "greed",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "em3",
+      "theme": "emotions"
+    },
+    {
+      "ar": "دنب",
+      "latn": "dnb",
+      "eng": "guilt",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "enb",
+      "theme": "emotions"
+    },
+    {
+      "ar": "تأنيب الضمير",
+      "latn": "ta2nib damir",
+      "eng": "guilt",
+      "syllables": 4,
+      "frequency": 60,
+      "sensitive": false,
+      "rhymeKey": "ir",
+      "theme": "emotions"
+    },
+    {
+      "ar": "حماس",
+      "latn": "7amas",
+      "eng": "enthusiasm",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "as",
+      "theme": "emotions"
+    },
+    {
+      "ar": "سعادة",
+      "latn": "sa3ada",
+      "eng": "happiness",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "emotions"
+    },
+    {
+      "ar": "لفرحة",
+      "latn": "lfer7a",
+      "eng": "happiness",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "7a",
+      "theme": "emotions"
+    },
+    {
+      "ar": "كراهية",
+      "latn": "karahia",
+      "eng": "hatred",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "ia",
+      "theme": "emotions"
+    },
+    {
+      "ar": "حسد",
+      "latn": "7asad",
+      "eng": "envy",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ad",
+      "theme": "emotions"
+    },
+    {
+      "ar": "شهوة",
+      "latn": "ch8wa",
+      "eng": "lust",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "wa",
+      "theme": "emotions"
+    },
+    {
+      "ar": "حبّ",
+      "latn": "7obb",
+      "eng": "love",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "obb",
+      "theme": "emotions"
+    },
+    {
+      "ar": "وحدة",
+      "latn": "wa7da",
+      "eng": "loneliness",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "da",
+      "theme": "emotions"
+    },
+    {
+      "ar": "ضرافات",
+      "latn": "Drafat",
+      "eng": "kindness",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "emotions"
+    },
+    {
+      "ar": "فرح",
+      "latn": "fara7",
+      "eng": "joy",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "a7",
+      "theme": "emotions"
+    },
+    {
+      "ar": "غيرة",
+      "latn": "ghira",
+      "eng": "jealousy",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ra",
+      "theme": "emotions"
+    },
+    {
+      "ar": "دلّ",
+      "latn": "dell",
+      "eng": "humiliation",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ell",
+      "theme": "emotions"
+    },
+    {
+      "ar": "رعب",
+      "latn": "ro3b",
+      "eng": "horror",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "o3b",
+      "theme": "emotions"
+    },
+    {
+      "ar": "أمل",
+      "latn": "amal",
+      "eng": "hope",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "al",
+      "theme": "emotions"
+    },
+    {
+      "ar": "الندم",
+      "latn": "nnadam",
+      "eng": "remorse",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "am",
+      "theme": "emotions"
+    },
+    {
+      "ar": "الرفض",
+      "latn": "RRafD",
+      "eng": "rejection",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "afd",
+      "theme": "emotions"
+    },
+    {
+      "ar": "فخر",
+      "latn": "fakhr",
+      "eng": "pride",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "axr",
+      "theme": "emotions"
+    },
+    {
+      "ar": "شفقة",
+      "latn": "chafa9a",
+      "eng": "pity",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "9a",
+      "theme": "emotions"
+    },
+    {
+      "ar": "شغف",
+      "latn": "chaghaf",
+      "eng": "passion",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "af",
+      "theme": "emotions"
+    },
+    {
+      "ar": "حنين",
+      "latn": "7anin",
+      "eng": "nostalgia",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "in",
+      "theme": "emotions"
+    },
+    {
+      "ar": "حشمة",
+      "latn": "7chma",
+      "eng": "shyness",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "theme": "emotions"
+    },
+    {
+      "ar": "صدمة",
+      "latn": "Sdma",
+      "eng": "shock",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ma",
+      "theme": "emotions"
+    },
+    {
+      "ar": "عار",
+      "latn": "3ar",
+      "eng": "shame",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ar",
+      "theme": "emotions"
+    },
+    {
+      "ar": "حزن",
+      "latn": "7ozn",
+      "eng": "sadness",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "ozn",
+      "theme": "emotions"
+    },
+    {
+      "ar": "معاناة",
+      "latn": "mo3anat",
+      "eng": "suffering",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "at",
+      "theme": "emotions"
+    },
+    {
+      "ar": "مفاجأة",
+      "latn": "mofaja2a",
+      "eng": "surprise",
+      "syllables": 4,
+      "frequency": 60,
+      "sensitive": false,
+      "rhymeKey": "2a",
+      "theme": "emotions"
+    },
+    {
+      "ar": "خلعة",
+      "latn": "khl3a",
+      "eng": "fear",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "3a",
+      "theme": "emotions"
+    },
+    {
+      "ar": "وسواس",
+      "latn": "wswas",
+      "eng": "obsession",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "as",
+      "theme": "emotions"
+    },
+    {
+      "ar": "فقسة",
+      "latn": "f9sa",
+      "eng": "grief",
+      "syllables": 1,
+      "frequency": 90,
+      "sensitive": false,
+      "rhymeKey": "sa",
+      "theme": "emotions"
+    },
+    {
+      "ar": "طموح",
+      "latn": "Tomou7",
+      "eng": "ambition",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "u7",
+      "theme": "emotions"
+    },
+    {
+      "ar": "إحساس",
+      "latn": "i7sas",
+      "eng": "feeling",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "as",
+      "theme": "emotions"
+    },
+    {
+      "ar": "شعور",
+      "latn": "cho3our",
+      "eng": "feeling",
+      "syllables": 2,
+      "frequency": 80,
+      "sensitive": false,
+      "rhymeKey": "ur",
+      "theme": "emotions"
+    },
+    {
+      "ar": "عاطفة",
+      "latn": "3aTifa",
+      "eng": "emotion",
+      "syllables": 3,
+      "frequency": 70,
+      "sensitive": false,
+      "rhymeKey": "fa",
+      "theme": "emotions"
+    }
+  ]
+}
