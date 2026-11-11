@@ -1,17 +1,19 @@
 import { create } from "zustand";
 import { BeatStyle } from "@/lib/audio/BeatScheduler";
+import { DifficultyLevel } from "@/types/game";
+import { siteConfig } from "@/config/site";
 
 export type ScriptDisplayMode = "arabic" | "arabizi" | "both";
 
 interface SettingsState {
   script: ScriptDisplayMode;
   beatStyle: BeatStyle;
-  includeSensitive: boolean;
-  volume: number;
+  bpm: number;
+  level: DifficultyLevel;
   setScript: (script: ScriptDisplayMode) => void;
   setBeatStyle: (style: BeatStyle) => void;
-  setIncludeSensitive: (include: boolean) => void;
-  setVolume: (volume: number) => void;
+  setBpm: (bpm: number) => void;
+  setLevel: (level: DifficultyLevel) => void;
 }
 
 const STORAGE_KEY = "9afiya_user_settings";
@@ -40,8 +42,8 @@ const initial = loadSavedSettings();
 export const useSettingsStore = create<SettingsState>((set, get) => ({
   script: initial.script || "both",
   beatStyle: initial.beatStyle || "boombap",
-  includeSensitive: initial.includeSensitive || false,
-  volume: initial.volume ?? 0.8,
+  bpm: initial.bpm || siteConfig.defaultBpm,
+  level: initial.level || "all_shown",
 
   setScript: (script) => {
     set({ script });
@@ -53,13 +55,13 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
     persistSettings({ ...get(), beatStyle });
   },
 
-  setIncludeSensitive: (includeSensitive) => {
-    set({ includeSensitive });
-    persistSettings({ ...get(), includeSensitive });
+  setBpm: (bpm) => {
+    set({ bpm });
+    persistSettings({ ...get(), bpm });
   },
 
-  setVolume: (volume) => {
-    set({ volume });
-    persistSettings({ ...get(), volume });
+  setLevel: (level) => {
+    set({ level });
+    persistSettings({ ...get(), level });
   },
 }));
