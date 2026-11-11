@@ -1,6 +1,15 @@
 import type { Metadata, Viewport } from "next";
+import { Cairo } from "next/font/google";
 import { siteConfig } from "@/config/site";
+import { LanguageHtmlSync } from "@/components/LanguageHtmlSync";
 import "./globals.css";
+
+const cairo = Cairo({
+  subsets: ["arabic", "latin"],
+  weight: ["400", "600", "700", "900"],
+  variable: "--font-cairo",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: `${siteConfig.name} (${siteConfig.arabicName}) - ${siteConfig.tagline}`,
@@ -26,7 +35,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1d4ed8",
+  themeColor: "#2438c8",
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
@@ -39,8 +48,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ary" dir="ltr" className="dark">
-      <body className="min-h-screen flex flex-col antialiased selection:bg-majorelle selection:text-white">
+    <html lang="ary" dir="rtl" className={cairo.variable}>
+      <body className="min-h-screen flex flex-col antialiased selection:bg-primary selection:text-white">
+        <LanguageHtmlSync />
         {children}
       </body>
     </html>
