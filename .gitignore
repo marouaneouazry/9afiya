@@ -19,6 +19,7 @@ dist/
 # Raw dataset caches & large files
 /data/raw/*
 !/data/raw/.gitkeep
+!/data/raw/curated_loanwords.json
 *.tar.gz
 *.zip
 
