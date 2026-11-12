@@ -1,18 +1,19 @@
 import { create } from "zustand";
-import { BeatStyle } from "@/lib/audio/BeatScheduler";
 import { DifficultyLevel } from "@/types/game";
 import { siteConfig } from "@/config/site";
+import { getBeatById } from "@/lib/audio/beatDefinitions";
 
 export type ScriptDisplayMode = "arabic" | "arabizi" | "both";
 
 interface SettingsState {
   script: ScriptDisplayMode;
-  beatStyle: BeatStyle;
+  selectedBeatId: string;
   bpm: number;
+  isManualBpm: boolean;
   level: DifficultyLevel;
   setScript: (script: ScriptDisplayMode) => void;
-  setBeatStyle: (style: BeatStyle) => void;
-  setBpm: (bpm: number) => void;
+  setSelectedBeatId: (id: string) => void;
+  setBpm: (bpm: number, manual?: boolean) => void;
   setLevel: (level: DifficultyLevel) => void;
 }
 
@@ -41,8 +42,9 @@ const initial = loadSavedSettings();
 
 export const useSettingsStore = create<SettingsState>((set, get) => ({
   script: initial.script || "both",
-  beatStyle: initial.beatStyle || "boombap",
+  selectedBeatId: initial.selectedBeatId || "boombap",
   bpm: initial.bpm || siteConfig.defaultBpm,
+  isManualBpm: initial.isManualBpm || false,
   level: initial.level || "all_shown",
 
   setScript: (script) => {
@@ -50,14 +52,23 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
     persistSettings({ ...get(), script });
   },
 
-  setBeatStyle: (beatStyle) => {
-    set({ beatStyle });
-    persistSettings({ ...get(), beatStyle });
+  setSelectedBeatId: (selectedBeatId) => {
+    const { isManualBpm } = get();
+    if (!isManualBpm && selectedBeatId !== "random") {
+      const beat = getBeatById(selectedBeatId);
+      if (beat) {
+        set({ selectedBeatId, bpm: beat.bpm });
+        persistSettings({ ...get(), selectedBeatId, bpm: beat.bpm });
+        return;
+      }
+    }
+    set({ selectedBeatId });
+    persistSettings({ ...get(), selectedBeatId });
   },
 
-  setBpm: (bpm) => {
-    set({ bpm });
-    persistSettings({ ...get(), bpm });
+  setBpm: (bpm, manual = true) => {
+    set({ bpm, isManualBpm: manual });
+    persistSettings({ ...get(), bpm, isManualBpm: manual });
   },
 
   setLevel: (level) => {

@@ -1,24 +1,21 @@
 "use client";
 
 import React, { useRef, useState } from "react";
-import { BeatStyle } from "@/lib/audio/BeatScheduler";
 import { DifficultyLevel } from "@/types/game";
 import { useSettingsStore, ScriptDisplayMode } from "@/store/useSettingsStore";
 import { useTranslation } from "@/lib/i18n";
 
 interface SettingsContentProps {
   onBpmChange?: (bpm: number) => void;
-  onBeatStyleChange?: (style: BeatStyle) => void;
   onLevelChange?: (level: DifficultyLevel) => void;
 }
 
 export const SettingsContent: React.FC<SettingsContentProps> = ({
   onBpmChange,
-  onBeatStyleChange,
   onLevelChange,
 }) => {
   const { t } = useTranslation();
-  const { script, beatStyle, bpm, level, setScript, setBeatStyle, setBpm, setLevel } =
+  const { script, bpm, level, setScript, setBpm, setLevel } =
     useSettingsStore();
 
   const [tapTimes, setTapTimes] = useState<number[]>([]);
@@ -37,7 +34,7 @@ export const SettingsContent: React.FC<SettingsContentProps> = ({
       const avgMs = intervals.reduce((a, b) => a + b, 0) / intervals.length;
       const calculatedBpm = Math.round(60000 / avgMs);
       const clamped = Math.max(60, Math.min(125, calculatedBpm));
-      setBpm(clamped);
+      setBpm(clamped, true);
       onBpmChange?.(clamped);
     }
 
@@ -46,14 +43,8 @@ export const SettingsContent: React.FC<SettingsContentProps> = ({
   };
 
   const updateBpm = (newBpm: number) => {
-    setBpm(newBpm);
+    setBpm(newBpm, true);
     onBpmChange?.(newBpm);
-  };
-
-  const updateBeatStyle = (style: BeatStyle, defaultBpm: number) => {
-    setBeatStyle(style);
-    onBeatStyleChange?.(style);
-    updateBpm(defaultBpm);
   };
 
   const updateLevel = (newLevel: DifficultyLevel) => {
@@ -63,44 +54,7 @@ export const SettingsContent: React.FC<SettingsContentProps> = ({
 
   return (
     <div className="flex flex-col gap-6 text-foreground">
-      {/* 1. Beat Selection */}
-      <div className="flex flex-col gap-2">
-        <label className="text-sm font-bold text-muted">
-          {t("settings.beat")}
-        </label>
-        <div
-          role="group"
-          aria-label={t("settings.beat")}
-          className="grid grid-cols-3 gap-2"
-        >
-          {(
-            [
-              { id: "boombap", label: "Boom Bap", defaultBpm: 88 },
-              { id: "chaabi", label: "Chaabi", defaultBpm: 102 },
-              { id: "lofi", label: "Lofi", defaultBpm: 80 },
-            ] as const
-          ).map((item) => {
-            const isSelected = beatStyle === item.id;
-            return (
-              <button
-                key={item.id}
-                type="button"
-                onClick={() => updateBeatStyle(item.id, item.defaultBpm)}
-                aria-pressed={isSelected}
-                className={`min-h-[48px] px-3 py-2 rounded-xl text-sm font-bold border transition-colors flex items-center justify-center text-center ${
-                  isSelected
-                    ? "bg-primary text-white border-primary shadow-sm"
-                    : "bg-surface border-border text-foreground hover:bg-border/30"
-                }`}
-              >
-                {item.label}
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* 2. Tempo (Slider + Tap button) */}
+      {/* 1. Tempo (Slider + Tap button) */}
       <div className="flex flex-col gap-2">
         <div className="flex items-center justify-between text-sm font-bold">
           <span className="text-muted">{t("settings.tempo")}</span>
@@ -129,7 +83,7 @@ export const SettingsContent: React.FC<SettingsContentProps> = ({
         </div>
       </div>
 
-      {/* 3. Help Level */}
+      {/* 2. Help Level */}
       <div className="flex flex-col gap-2">
         <label className="text-sm font-bold text-muted">
           {t("settings.help")}
@@ -166,7 +120,7 @@ export const SettingsContent: React.FC<SettingsContentProps> = ({
         </div>
       </div>
 
-      {/* 4. Script */}
+      {/* 3. Script */}
       <div className="flex flex-col gap-2">
         <label className="text-sm font-bold text-muted">
           {t("settings.script")}

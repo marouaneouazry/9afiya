@@ -3,14 +3,12 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "@/lib/i18n";
 import { SettingsContent } from "./SettingsContent";
-import { BeatStyle } from "@/lib/audio/BeatScheduler";
 import { DifficultyLevel } from "@/types/game";
 
 interface SettingsSheetProps {
   isOpen: boolean;
   onClose: () => void;
   onBpmChange?: (bpm: number) => void;
-  onBeatStyleChange?: (style: BeatStyle) => void;
   onLevelChange?: (level: DifficultyLevel) => void;
 }
 
@@ -18,7 +16,6 @@ export const SettingsSheet: React.FC<SettingsSheetProps> = ({
   isOpen,
   onClose,
   onBpmChange,
-  onBeatStyleChange,
   onLevelChange,
 }) => {
   const { t } = useTranslation();
@@ -67,7 +64,6 @@ export const SettingsSheet: React.FC<SettingsSheetProps> = ({
 
         <SettingsContent
           onBpmChange={onBpmChange}
-          onBeatStyleChange={onBeatStyleChange}
           onLevelChange={onLevelChange}
         />
 
