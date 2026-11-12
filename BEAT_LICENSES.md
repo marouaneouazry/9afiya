@@ -20,39 +20,33 @@ High-tempo musical rhythm is fundamental to freestyle rap, but music copyright c
 
 ---
 
-## 2. In-Engine Procedural Beats (Zero Licensing Risk)
+## 2. In-Engine Procedural Beats (Zero Licensing Risk — CC0)
 
-The 9afiya audio engine includes a Web Audio procedural synthesizer capable of generating authentic hip-hop and Moroccan rhythms on the fly without loading external audio files:
+The 9afiya audio engine includes an enhanced Web Audio procedural synthesizer generating authentic hip-hop and Moroccan rhythms on the fly without loading external audio files:
 
-| Pattern ID | Style / Rhythm | Default BPM | Instruments Used |
-| :--- | :--- | :--- | :--- |
-| `procedural-boombap-01` | Classic 90s Boom Bap | 88 | Synth Kick, Lowpass Snare, Closed Hat, Sub 808 |
-| `procedural-chaabi-trap` | Moroccan Chaabi Trap | 102 | Trap 808, Darbouka Dum/Tek, Krakeb Shaker, Clap |
-| `procedural-lofi-derb` | Chill Lofi Casablanca | 80 | Soft Kick, Brushes/Snap, Krakeb Pulse, Filtered Bass |
+| ID | Name | Default BPM | Key | Mood | Instruments Used | License |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `boombap` | Boom Bap | 88 | Dm | Classic, dusty | Kick, Snare, Hat, 808 Sub-bass | CC0 1.0 Universal |
+| `oldschool` | Old School | 92 | Am | Punchy, simple | Kick, Snare, Clap, Hat, 808 Sub-bass | CC0 1.0 Universal |
+| `lofi` | Lofi Derb | 80 | Em | Calm, warm | Soft Kick, Snare, Brush Hat, Pad, Sub-bass | CC0 1.0 Universal |
+| `chaabi` | Chaabi | 102 | Gm | Festive, hand percussion | Darbouka (Dum/Tek), Krakeb, Bendir, Kick, Snare | CC0 1.0 Universal |
+| `gnawa` | Gnawa Groove | 96 | C | Deep, guembri & krakeb | Guembri-style Bass, Krakeb, Bendir, Kick | CC0 1.0 Universal |
+| `aita` | Aita | 90 | Dm | Folk, bendir & claps | Bendir, Handclaps, Darbouka Tek, Kick, Snare | CC0 1.0 Universal |
+| `rai` | Rai Flow | 100 | Fm | Bright, melodic | Darbouka (Dum/Tek), Kick, Snare, Synth Pads | CC0 1.0 Universal |
+| `trap` | Trap Casablanca | 72 | Cm | Half-time, heavy 808 | Heavy 808 Sub, Rapid Trap Hats, Half-time Snare, Clap | CC0 1.0 Universal |
+| `nightdrive` | Night Drive | 96 | Am | Dark, pads | 4-on-the-floor Kick, Snare, Synthwave Pads, 808 Sub | CC0 1.0 Universal |
+| `afro` | Afro Casa | 104 | Em | Bouncy, light percussion | Syncopated Kick, Snare, Clap, Krakeb, Darbouka Tek | CC0 1.0 Universal |
 
 ---
 
 ## 3. Beat Catalog Log (`public/beats/beats.json`)
 
-All static audio files included in `/public/beats/` must be cataloged in the table below and mirrored in `public/beats/beats.json`:
+All static and procedural beat definitions are cataloged in `public/beats/beats.json` with multi-language metadata (`ary-Arab`, `ary-Latn`, `en`, `fr`).
 
-| ID | Title | Producer | BPM | Key | License | Source URL | Attribution Text | Date Added |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| *sample-01* | *Darbouka Boom Bap* | *9afiya Procedural Synth* | 90 | Dm | CC0 1.0 Universal | Built-in Web Audio API | Generated procedurally by 9afiya Audio Engine | 2026-11-11 |
-| *sample-02* | *Casablanca Nightliner* | *9afiya Procedural Synth* | 95 | Am | CC0 1.0 Universal | Built-in Web Audio API | Generated procedurally by 9afiya Audio Engine | 2026-11-11 |
-| *sample-03* | *Derb Sultan Chaabi* | *9afiya Procedural Synth* | 104 | Gm | CC0 1.0 Universal | Built-in Web Audio API | Generated procedurally by 9afiya Audio Engine | 2026-11-11 |
-
-*(Additional external CC0 and licensed community beats will be logged here as verified).*
+*(Additional external CC0 and licensed community beats will be logged here as verified under direct written permission).*
 
 ---
 
 ## 4. Producer Submission Guidelines & Outreach Workflow
 
-To support the Moroccan hip-hop scene, 9afiya hosts a dedicated `/submit-beat` portal.
-
-### Submission Terms:
-- **Loop Format**: High-quality stereo WAV or 320kbps MP3, seamless 4-bar or 8-bar loop.
-- **BPM Range**: 70 to 110 BPM (with exact BPM and musical key metadata supplied).
-- **Rights Grant**: Producers must grant an irrevocable, non-exclusive, worldwide, royalty-free license for 9afiya to stream and distribute the audio within the application.
-- **Attribution Guarantee**: The producer's name, Instagram/YouTube/Spotify link, and beat title will be prominently displayed on the game screen whenever their beat plays.
-- **Moderation**: No beat is automatically published. Every submission is audited for copyright clearance, audio clipping, and seamless looping before entering `beats.json`.
+9afiya welcomes original beat submissions from Moroccan beatmakers and international producers under CC0 or explicit written agreement. Contact the project maintainers with clean unmastered stems or instrumental masters.
