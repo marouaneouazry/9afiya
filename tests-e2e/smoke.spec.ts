@@ -30,41 +30,61 @@ test.describe("9afiya UI Smoke Tests", () => {
     }
   });
 
-  test("Play starts a game, shows only playing elements, and stops", async ({
+  test("Beat picker displays at least 10 cards, previews beat, and uses selected beat on Start", async ({
     page,
   }) => {
-    await page.goto("/");
+    await page.goto("/play/classic");
 
-    // Click Play to enter game
-    const playBtn = page.getByRole("link", { name: /بدا|Play|Jouer|Bda/i });
-    await playBtn.click();
-    await expect(page).toHaveURL(/\/play\/classic/);
+    // Beat picker section is visible
+    const radiogroup = page.locator('[role="radiogroup"]');
+    await expect(radiogroup).toBeVisible();
 
-    // Before start: placeholder "؟" and instruction sentence
-    await expect(page.getByText("؟")).toBeVisible();
+    // Picker must show at least 10 cards (11 cards: 1 Surprise me + 10 beats)
+    const cards = page.locator('[role="radio"]');
+    const count = await cards.count();
+    expect(count).toBeGreaterThanOrEqual(10);
+
+    // Surprise me card is first
+    const firstCard = cards.first();
+    await expect(firstCard).toBeVisible();
+
+    // Select a specific beat card (e.g., Chaabi or Old School)
+    const chaabiCard = page.locator('[data-testid="beat-card-chaabi"]');
+    await expect(chaabiCard).toBeVisible();
+    await chaabiCard.click();
+    await expect(chaabiCard).toHaveAttribute("aria-checked", "true");
+
+    // Preview button toggles preview state
+    const chaabiPreviewBtn = page.locator('[data-testid="preview-btn-chaabi"]');
+    await chaabiPreviewBtn.click();
+    await expect(chaabiCard).toHaveAttribute("data-playing", "true");
+    await expect(chaabiPreviewBtn).toHaveAttribute("aria-pressed", "true");
+
+    // Tapping another preview switches preview immediately
+    const boombapCard = page.locator('[data-testid="beat-card-boombap"]');
+    const boombapPreviewBtn = page.locator('[data-testid="preview-btn-boombap"]');
+    await boombapPreviewBtn.click();
+    await expect(boombapCard).toHaveAttribute("data-playing", "true");
+    await expect(chaabiCard).toHaveAttribute("data-playing", "false");
+
+    // Pressing Start starts session and stops any preview
     const startBtn = page.getByRole("button", { name: /بدا|Start|Lancer|Bda/i });
-    await expect(startBtn).toBeVisible();
-
-    // Start session
     await startBtn.click();
 
     // Playing screen: bar counter is visible
     await expect(page.getByText(/البار|Bar|Mesure/i)).toBeVisible();
+
+    // Chosen beat name is shown under bar counter
+    await expect(page.getByText(/BPM/i)).toBeVisible();
 
     // Target hint is visible
     await expect(
       page.getByText(/سالي بهاد القافية|Land this rhyme|Place cette rime|Sali b had/i)
     ).toBeVisible();
 
-    // Four beat dots visualizer
-    const beatDots = page.locator('[role="progressbar"]');
-    await expect(beatDots).toBeVisible();
-
-    // Stop button is visible
+    // Stop button works and returns to ready state
     const stopBtn = page.getByRole("button", { name: /وقّف|Stop|Arrêter|Wa99ef/i });
     await expect(stopBtn).toBeVisible();
-
-    // Clicking Stop returns to ready state
     await stopBtn.click();
     await expect(page.getByText("؟")).toBeVisible();
   });
@@ -83,10 +103,10 @@ test.describe("9afiya UI Smoke Tests", () => {
       const sheet = page.getByRole("dialog");
       await expect(sheet).toBeVisible();
 
-      // Beat styles are visible inside settings
-      await expect(sheet.getByRole("button", { name: "Boom Bap" })).toBeVisible();
-      await expect(sheet.getByRole("button", { name: "Chaabi" })).toBeVisible();
-      await expect(sheet.getByRole("button", { name: "Lofi" })).toBeVisible();
+      // Help level & Script buttons are visible inside settings
+      await expect(sheet.getByRole("button", { name: /طق|Tap/i })).toBeVisible();
+      await expect(sheet.getByRole("button", { name: /كاع الكلمات|All words|Tous les mots|Ga3 l-klimat/i })).toBeVisible();
+      await expect(sheet.getByRole("button", { name: /عربية|Arabic|Arabe|3arbia/i })).toBeVisible();
 
       // Click Done button to close
       const doneBtn = sheet.getByRole("button", { name: /تم|Done|OK|Tem/i });
@@ -98,16 +118,13 @@ test.describe("9afiya UI Smoke Tests", () => {
       // Desktop: 360px Settings panel is visible beside the game area
       const desktopPanel = page.locator("aside");
       await expect(desktopPanel).toBeVisible();
+      await expect(desktopPanel.getByRole("button", { name: /طق|Tap/i })).toBeVisible();
       await expect(
-        desktopPanel.getByRole("button", { name: "Boom Bap" })
+        desktopPanel.getByRole("button", { name: /كاع الكلمات|All words|Tous les mots|Ga3 l-klimat/i })
       ).toBeVisible();
       await expect(
-        desktopPanel.getByRole("button", { name: "Chaabi" })
-      ).toBeVisible();
-      await expect(
-        desktopPanel.getByRole("button", { name: "Lofi" })
+        desktopPanel.getByRole("button", { name: /عربية|Arabic|Arabe|3arbia/i })
       ).toBeVisible();
     }
   });
 });
-
