@@ -23,5 +23,17 @@
   "settings.script.ar": "3arbia",
   "settings.script.lat": "Latinia",
   "settings.script.both": "Ljouj",
-  "settings.done": "Tem"
+  "settings.done": "Tem",
+  "beats.title": "Khtar l-beat",
+  "beats.preview": "Sma3",
+  "beats.stop": "Wa99ef",
+  "beats.random": "Beat 3chwa2i",
+  "beats.bpm": "{bpm} BPM",
+  "beats.selected": "Mokhtar",
+  "mood.classic": "Klasiki",
+  "mood.calm": "Hadi",
+  "mood.festive": "Farhan",
+  "mood.deep": "3ami9",
+  "mood.dark": "Dalam",
+  "mood.bouncy": "Hamassi"
 }

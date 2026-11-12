@@ -23,5 +23,17 @@
   "settings.script.ar": "Arabe",
   "settings.script.lat": "Latin",
   "settings.script.both": "Les deux",
-  "settings.done": "OK"
+  "settings.done": "OK",
+  "beats.title": "Choisis un beat",
+  "beats.preview": "Écouter",
+  "beats.stop": "Arrêter",
+  "beats.random": "Surprends-moi",
+  "beats.bpm": "{bpm} BPM",
+  "beats.selected": "Sélectionné",
+  "mood.classic": "classique",
+  "mood.calm": "calme",
+  "mood.festive": "festif",
+  "mood.deep": "profond",
+  "mood.dark": "sombre",
+  "mood.bouncy": "entraînant"
 }

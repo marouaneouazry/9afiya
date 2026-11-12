@@ -23,5 +23,17 @@
   "settings.script.ar": "عربية",
   "settings.script.lat": "لاتينية",
   "settings.script.both": "الجوج",
-  "settings.done": "تم"
+  "settings.done": "تم",
+  "beats.title": "اختار البيت",
+  "beats.preview": "سمع",
+  "beats.stop": "وقّف",
+  "beats.random": "بيت عشوائي",
+  "beats.bpm": "{bpm} BPM",
+  "beats.selected": "مختار",
+  "mood.classic": "كلاسيكي",
+  "mood.calm": "هادي",
+  "mood.festive": "فرحان",
+  "mood.deep": "عميق",
+  "mood.dark": "ظلام",
+  "mood.bouncy": "حماسي"
 }
