@@ -2,25 +2,30 @@
 
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { BeatScheduler, BeatStyle } from "@/lib/audio/BeatScheduler";
+import { BeatScheduler } from "@/lib/audio/BeatScheduler";
+import { getBeatById, getRandomBeat, BEAT_DEFINITIONS } from "@/lib/audio/beatDefinitions";
+import { previewManager } from "@/lib/audio/previewManager";
 import { GameEngine } from "@/lib/game/GameEngine";
-import { DifficultyLevel, GameMode, RhymeWord } from "@/types/game";
+import { DifficultyLevel, RhymeWord } from "@/types/game";
 import { BeatVisualizer } from "@/components/game/BeatVisualizer";
 import { RhymeTile } from "@/components/game/RhymeTile";
+import { BeatPicker } from "@/components/game/BeatPicker";
 import { SettingsContent } from "@/components/game/SettingsContent";
 import { SettingsSheet } from "@/components/game/SettingsSheet";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { siteConfig } from "@/config/site";
 import { useTranslation } from "@/lib/i18n";
+import { BeatDefinition } from "@/types/audio";
 
 export default function PlayModePage() {
-  const { t } = useTranslation();
-  const { script, beatStyle, bpm, level, setBpm, setBeatStyle, setLevel } =
+  const { t, lang } = useTranslation();
+  const { script, selectedBeatId, bpm, level, setBpm, setLevel } =
     useSettingsStore();
 
   const [wordsPool, setWordsPool] = useState<RhymeWord[]>([]);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
+  const [currentSessionBeat, setCurrentSessionBeat] = useState<BeatDefinition>(BEAT_DEFINITIONS[0]);
 
   const [currentBar, setCurrentBar] = useState<number>(1);
   const [currentBeat, setCurrentBeat] = useState<number>(1);
@@ -73,17 +78,30 @@ export default function PlayModePage() {
       if (schedulerRef.current) {
         schedulerRef.current.stop();
       }
+      previewManager.stop();
     };
   }, [level, bpm, totalBars, wordsPool]);
 
   // 3. Connect BeatScheduler hardware audio clock to GameEngine
   const handleStartSession = () => {
+    // Stop any active preview
+    previewManager.stop();
+
+    // Determine session beat (resolve random if chosen)
+    let beatToPlay: BeatDefinition;
+    if (selectedBeatId === "random") {
+      beatToPlay = getRandomBeat();
+    } else {
+      beatToPlay = getBeatById(selectedBeatId) || BEAT_DEFINITIONS[0];
+    }
+    setCurrentSessionBeat(beatToPlay);
+
     if (!schedulerRef.current) {
-      schedulerRef.current = new BeatScheduler(bpm, beatStyle);
+      schedulerRef.current = new BeatScheduler(beatToPlay, bpm);
     }
     const scheduler = schedulerRef.current;
+    scheduler.setBeat(beatToPlay);
     scheduler.setBpm(bpm);
-    scheduler.setStyle(beatStyle);
 
     scheduler.subscribe((_bar, _beat, audioTime) => {
       if (engineRef.current) {
@@ -105,15 +123,15 @@ export default function PlayModePage() {
     setIsPlaying(false);
   };
 
-  const handleBpmChange = (newBpm: number) => {
-    setBpm(newBpm);
-    schedulerRef.current?.setBpm(newBpm);
-    engineRef.current?.setBpm(newBpm);
+  const handleOpenSettings = () => {
+    previewManager.stop();
+    setIsSettingsOpen(true);
   };
 
-  const handleBeatStyleChange = (newStyle: BeatStyle) => {
-    setBeatStyle(newStyle);
-    schedulerRef.current?.setStyle(newStyle);
+  const handleBpmChange = (newBpm: number) => {
+    setBpm(newBpm, true);
+    schedulerRef.current?.setBpm(newBpm);
+    engineRef.current?.setBpm(newBpm);
   };
 
   const handleLevelChange = (newLevel: DifficultyLevel) => {
@@ -132,6 +150,8 @@ export default function PlayModePage() {
     }
     return true;
   }, [level, currentBar, currentBeat]);
+
+  const activeBeatName = currentSessionBeat.name[lang] || currentSessionBeat.name["en"];
 
   return (
     <div className="min-h-screen flex flex-col justify-between p-4 sm:p-8 max-w-[1200px] mx-auto w-full">
@@ -155,7 +175,7 @@ export default function PlayModePage() {
             {/* Settings button */}
             <button
               type="button"
-              onClick={() => setIsSettingsOpen(true)}
+              onClick={handleOpenSettings}
               className="inline-flex items-center justify-center min-h-[48px] px-4 rounded-xl border border-border bg-surface text-foreground font-bold text-sm hover:bg-border/30 transition-colors"
               aria-label={t("game.settings")}
             >
@@ -163,13 +183,16 @@ export default function PlayModePage() {
             </button>
           </>
         ) : (
-          /* Header while playing: bar counter centered */
-          <div className="w-full flex items-center justify-center">
+          /* Header while playing: bar counter and small muted chosen beat name */
+          <div className="w-full flex flex-col items-center justify-center text-center">
             <span className="text-base sm:text-lg font-bold text-foreground">
               {t("game.bar", {
                 n: currentBar,
                 total: totalBars === Infinity ? "∞" : totalBars,
               })}
+            </span>
+            <span className="text-xs sm:text-sm text-muted font-medium">
+              {activeBeatName} • {bpm} BPM
             </span>
           </div>
         )}
@@ -179,12 +202,12 @@ export default function PlayModePage() {
       <main className="w-full my-auto py-6 flex-1 flex flex-col items-center justify-center">
         {!isPlaying ? (
           /* ---------- BEFORE START ---------- */
-          <div className="w-full flex flex-col min-[900px]:flex-row items-center justify-center gap-10">
-            {/* Center Area */}
-            <div className="flex-1 max-w-lg flex flex-col items-center justify-center text-center gap-6">
+          <div className="w-full flex flex-col min-[900px]:flex-row items-start justify-center gap-10">
+            {/* Center / Left Column (Placeholder, Instructions, Dots, Beat Picker, Start Button) */}
+            <div className="w-full flex-1 flex flex-col items-center justify-center text-center gap-6">
               {/* Large placeholder "؟" */}
               <div
-                className="w-32 h-32 rounded-3xl bg-surface border-2 border-border flex items-center justify-center text-7xl font-bold font-arabic text-muted/60 select-none shadow-xs"
+                className="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-surface border-2 border-border flex items-center justify-center text-6xl font-bold font-arabic text-muted/60 select-none shadow-xs"
                 aria-hidden="true"
               >
                 ؟
@@ -197,6 +220,11 @@ export default function PlayModePage() {
 
               {/* Four idle beat dots */}
               <BeatVisualizer isPlaying={false} />
+
+              {/* Beat Picker Section (Cards with audio preview) */}
+              <div className="w-full max-w-2xl text-start">
+                <BeatPicker />
+              </div>
 
               {/* Primary Start button */}
               <button
@@ -211,14 +239,13 @@ export default function PlayModePage() {
             {/* Desktop-only Settings Panel (360px on right) */}
             <aside
               aria-label={t("game.settings")}
-              className="hidden min-[900px]:block w-[360px] bg-surface border border-border rounded-2xl p-6 shadow-xs"
+              className="hidden min-[900px]:block w-[360px] bg-surface border border-border rounded-2xl p-6 shadow-xs shrink-0"
             >
               <h2 className="text-lg font-bold text-foreground mb-4 border-b border-border pb-2">
                 {t("game.settings")}
               </h2>
               <SettingsContent
                 onBpmChange={handleBpmChange}
-                onBeatStyleChange={handleBeatStyleChange}
                 onLevelChange={handleLevelChange}
               />
             </aside>
@@ -275,7 +302,6 @@ export default function PlayModePage() {
         isOpen={isSettingsOpen}
         onClose={() => setIsSettingsOpen(false)}
         onBpmChange={handleBpmChange}
-        onBeatStyleChange={handleBeatStyleChange}
         onLevelChange={handleLevelChange}
       />
     </div>
